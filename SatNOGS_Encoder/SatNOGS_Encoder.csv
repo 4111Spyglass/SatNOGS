@@ -1,7 +1,0 @@
-"Reference","Qty","Value","Exclude from BOM","Exclude from Board","Footprint","Datasheet","Manufacturer","Part Number"
-"C1","1","100n","","","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V","Yaogeo","CC0805KRX7R9BB104 "
-"C2","1","1u","","","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V","Yaogeo","CC0805KKX7R7BB105"
-"J1","1","Conn_02x05_Odd_Even","","","Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical","https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf","Amphenol","67997-410HLF"
-"Q1","1","Q_NMOS_GSD","","","Package_TO_SOT_SMD:SOT-23_Handsoldering","https://www.vishay.com/docs/65900/si2312cd.pdf","Vishay","SI2312CDS-T1-GE3"
-"R1,R2","2","4k7","","","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L","Yaogeo","RC0805FR-074K7L "
-"U1","1","AS5601","","","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","https://ams.com/as5601#tab/features","  ams-OSRAM","AS5601-ASOM"
