@@ -1,0 +1,233 @@
+(footprint "CP0805-A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CP0805-A, http://datasheets.avx.com/cp0805smd.pdf")
+	(tags "RF filter")
+	(property "Reference" "REF**"
+		(at 0 2 0)
+		(layer "F.SilkS")
+		(uuid "f7c46f59-1e41-410d-813c-dd6b29cd045e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CP0805-A"
+		(at 0 -2 0)
+		(layer "F.Fab")
+		(uuid "1f85b7e3-70f8-48f1-80bc-4cafe3b7cd40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2477209-57d4-46c3-8cf2-c5a322a04410")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fba9a8cb-f9bf-417a-9c23-353561ec663f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2784fe9d-b58b-49d9-ad5b-02c8a43f2f59")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.3 -1.2)
+		(end -1.3 0.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "287a675b-0703-41e0-9610-f5e7fb67cfba")
+	)
+	(fp_line
+		(start -1.3 -1.2)
+		(end 1.3 -1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d59ae23-9bfa-40b4-905e-021a31dc6633")
+	)
+	(fp_line
+		(start 1.3 -1.2)
+		(end 1.3 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "988c18a1-36a5-4004-a6a6-c883eb1fcc8b")
+	)
+	(fp_line
+		(start 1.3 1.2)
+		(end -0.7 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b5a31437-e7e4-4bf2-8d88-9022b0ac14b3")
+	)
+	(fp_line
+		(start -1.4 -1.3)
+		(end 1.4 -1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "51a52138-1a85-43f1-83ba-0ca4eacbef32")
+	)
+	(fp_line
+		(start -1.4 1.3)
+		(end -1.4 -1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "527ba494-91f3-40f7-99bc-fffa3c5a364d")
+	)
+	(fp_line
+		(start 1.4 -1.3)
+		(end 1.4 1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3562209b-561d-49ce-8722-86eee38b7a3f")
+	)
+	(fp_line
+		(start 1.4 1.3)
+		(end -1.4 1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0713a0e7-3547-4d98-a991-597179fb1e5c")
+	)
+	(fp_line
+		(start -1.3 -1.2)
+		(end -1.3 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f11b5356-912d-4af5-8077-a5fe7d2902c8")
+	)
+	(fp_line
+		(start -1.3 1.2)
+		(end 1.3 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d74cfa5b-f971-496b-bd84-fb7598db624f")
+	)
+	(fp_line
+		(start 1.3 -1.2)
+		(end -1.3 -1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "69d407c0-02d6-49be-b53e-3fd04fbfe6a4")
+	)
+	(fp_line
+		(start 1.3 1.2)
+		(end 1.3 -1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "107c029f-f734-4ad3-8425-9dff1fcde2c1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "fe36969c-56fb-4884-8265-6396c3db8408")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.7325 0.725)
+		(size 0.865 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "769efc79-168d-43c4-a8e7-254e1011fe64")
+	)
+	(pad "2" smd rect
+		(at 0.7325 0.725)
+		(size 0.865 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2bf82214-bd3a-4195-b647-0951300905d8")
+	)
+	(pad "3" smd rect
+		(at 0.7325 -0.725)
+		(size 0.865 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a11e8fca-a7e9-4bb6-993c-3bc8bf9ce9bb")
+	)
+	(pad "4" smd rect
+		(at -0.7325 -0.725)
+		(size 0.865 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "70849e21-629c-4982-99ea-209f9a494fee")
+	)
+	(model "${LSF_KICAD_LIB}/lsf-kicad-lib.3dshapes/CP0805-A.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

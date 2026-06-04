@@ -1,0 +1,5012 @@
+(kicad_sch 
+  (version 20250114) 
+  (generator "eeschema") 
+  (generator_version "9.0") 
+  (uuid "b762ed14-9275-490f-9f31-cc33770a395b") 
+  (paper "A4") 
+  (lib_symbols 
+    (symbol "Connector_Generic:Conn_01x01" 
+      (pin_names 
+        (offset 1.016) 
+        (hide yes)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (property "Reference" "J" 
+        (at 0 2.54 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Value" "Conn_01x01" 
+        (at 0 -2.54 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Footprint" "" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Datasheet" "~" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_keywords" "connector" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_fp_filters" "Connector*:*_1x??_*" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (symbol "Conn_01x01_1_1" 
+        (rectangle 
+          (start -1.27 1.27) 
+          (end 1.27 -1.27) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type background))) 
+        (rectangle 
+          (start -1.27 0.127) 
+          (end 0 -0.127) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (pin passive line 
+          (at -5.08 0 0) 
+          (length 3.81) 
+          (name "Pin_1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "Device:C_Polarized" 
+      (pin_numbers 
+        (hide yes)) 
+      (pin_names 
+        (offset 0.254)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (property "Reference" "C" 
+        (at 0.635 2.54 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify left))) 
+      (property "Value" "C_Polarized" 
+        (at 0.635 -2.54 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify left))) 
+      (property "Footprint" "" 
+        (at 0.9651999999999999 -3.81 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Datasheet" "~" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Description" "Polarized capacitor" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_keywords" "cap capacitor" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_fp_filters" "CP_*" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (symbol "C_Polarized_0_1" 
+        (rectangle 
+          (start -2.286 0.508) 
+          (end 2.286 1.016) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy -1.778 2.286) 
+            (xy -0.762 2.286)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy -1.27 2.794) 
+            (xy -1.27 1.778)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (rectangle 
+          (start 2.286 -0.508) 
+          (end -2.286 -1.016) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type outline)))) 
+      (symbol "C_Polarized_1_1" 
+        (pin passive line 
+          (at 0 3.81 270) 
+          (length 2.794) 
+          (name "~" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 0 -3.81 90) 
+          (length 2.794) 
+          (name "~" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "Device:C_Small" 
+      (pin_numbers 
+        (hide yes)) 
+      (pin_names 
+        (offset 0.254) 
+        (hide yes)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (property "Reference" "C" 
+        (at 0.254 1.778 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify left))) 
+      (property "Value" "C_Small" 
+        (at 0.254 -2.032 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify left))) 
+      (property "Footprint" "" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Datasheet" "~" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Description" "Unpolarized capacitor, small symbol" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_keywords" "capacitor cap" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_fp_filters" "C_*" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (symbol "C_Small_0_1" 
+        (polyline 
+          (pts 
+            (xy -1.524 0.508) 
+            (xy 1.524 0.508)) 
+          (stroke 
+            (width 0.3048) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy -1.524 -0.508) 
+            (xy 1.524 -0.508)) 
+          (stroke 
+            (width 0.3302) 
+            (type default)) 
+          (fill 
+            (type none)))) 
+      (symbol "C_Small_1_1" 
+        (pin passive line 
+          (at 0 2.54 270) 
+          (length 2.032) 
+          (name "~" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 0 -2.54 90) 
+          (length 2.032) 
+          (name "~" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "Device:D_Schottky" 
+      (pin_numbers 
+        (hide yes)) 
+      (pin_names 
+        (offset 1.016) 
+        (hide yes)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (property "Reference" "D" 
+        (at 0 2.54 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Value" "D_Schottky" 
+        (at 0 -2.54 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Footprint" "" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Datasheet" "~" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Description" "Schottky diode" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_keywords" "diode Schottky" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (symbol "D_Schottky_0_1" 
+        (polyline 
+          (pts 
+            (xy -1.905 0.635) 
+            (xy -1.905 1.27) 
+            (xy -1.27 1.27) 
+            (xy -1.27 -1.27) 
+            (xy -0.635 -1.27) 
+            (xy -0.635 -0.635)) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 1.27 1.27) 
+            (xy 1.27 -1.27) 
+            (xy -1.27 0) 
+            (xy 1.27 1.27)) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 1.27 0) 
+            (xy -1.27 0)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none)))) 
+      (symbol "D_Schottky_1_1" 
+        (pin passive line 
+          (at -3.81 0 0) 
+          (length 2.54) 
+          (name "K" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 3.81 0 180) 
+          (length 2.54) 
+          (name "A" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "Device:D_TVS" 
+      (pin_numbers 
+        (hide yes)) 
+      (pin_names 
+        (offset 1.016) 
+        (hide yes)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (property "Reference" "D" 
+        (at 0 2.54 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Value" "D_TVS" 
+        (at 0 -2.54 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Footprint" "" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Datasheet" "~" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Description" "Bidirectional transient-voltage-suppression diode" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_keywords" "diode TVS thyrector" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (symbol "D_TVS_0_1" 
+        (polyline 
+          (pts 
+            (xy -2.54 1.27) 
+            (xy -2.54 -1.27) 
+            (xy 2.54 1.27) 
+            (xy 2.54 -1.27) 
+            (xy -2.54 1.27)) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 0.508 1.27) 
+            (xy 0 1.27) 
+            (xy 0 -1.27) 
+            (xy -0.508 -1.27)) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 1.27 0) 
+            (xy -1.27 0)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none)))) 
+      (symbol "D_TVS_1_1" 
+        (pin passive line 
+          (at -3.81 0 0) 
+          (length 2.54) 
+          (name "A1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 3.81 0 180) 
+          (length 2.54) 
+          (name "A2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "Device:FerriteBead" 
+      (pin_numbers 
+        (hide yes)) 
+      (pin_names 
+        (offset 0)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (property "Reference" "FB" 
+        (at -3.81 0.635 90) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Value" "FerriteBead" 
+        (at 3.81 0 90) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Footprint" "" 
+        (at -1.778 0 90) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Datasheet" "~" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Description" "Ferrite bead" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_keywords" "L ferrite bead inductor filter" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_fp_filters" "Inductor_* L_* *Ferrite*" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (symbol "FerriteBead_0_1" 
+        (polyline 
+          (pts 
+            (xy -2.7686 0.4064) 
+            (xy -1.7018 2.2606) 
+            (xy 2.7686 -0.3048) 
+            (xy 1.6764 -2.159) 
+            (xy -2.7686 0.4064)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 0 1.27) 
+            (xy 0 1.2954)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 0 -1.27) 
+            (xy 0 -1.2192)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none)))) 
+      (symbol "FerriteBead_1_1" 
+        (pin passive line 
+          (at 0 3.81 270) 
+          (length 2.54) 
+          (name "~" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 0 -3.81 90) 
+          (length 2.54) 
+          (name "~" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "Device:Fuse" 
+      (pin_numbers 
+        (hide yes)) 
+      (pin_names 
+        (offset 0)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (property "Reference" "F" 
+        (at 2.032 0 90) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Value" "Fuse" 
+        (at -1.905 0 90) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Footprint" "" 
+        (at -1.778 0 90) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Datasheet" "~" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Description" "Fuse" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_keywords" "fuse" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_fp_filters" "*Fuse*" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (symbol "Fuse_0_1" 
+        (rectangle 
+          (start -0.762 -2.54) 
+          (end 0.762 2.54) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 0 2.54) 
+            (xy 0 -2.54)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none)))) 
+      (symbol "Fuse_1_1" 
+        (pin passive line 
+          (at 0 3.81 270) 
+          (length 1.27) 
+          (name "~" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 0 -3.81 90) 
+          (length 1.27) 
+          (name "~" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "Device:L_Small" 
+      (pin_numbers 
+        (hide yes)) 
+      (pin_names 
+        (offset 0.254) 
+        (hide yes)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (property "Reference" "L" 
+        (at 0.762 1.016 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify left))) 
+      (property "Value" "L_Small" 
+        (at 0.762 -1.016 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify left))) 
+      (property "Footprint" "" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Datasheet" "~" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Description" "Inductor, small symbol" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_keywords" "inductor choke coil reactor magnetic" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (symbol "L_Small_0_1" 
+        (arc 
+          (start 0 2.032) 
+          (mid 0.5058 1.524) 
+          (end 0 1.016) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (arc 
+          (start 0 1.016) 
+          (mid 0.5058 0.508) 
+          (end 0 0) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (arc 
+          (start 0 0) 
+          (mid 0.5058 -0.508) 
+          (end 0 -1.016) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (arc 
+          (start 0 -1.016) 
+          (mid 0.5058 -1.524) 
+          (end 0 -2.032) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none)))) 
+      (symbol "L_Small_1_1" 
+        (pin passive line 
+          (at 0 2.54 270) 
+          (length 0.508) 
+          (name "~" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 0 -2.54 90) 
+          (length 0.508) 
+          (name "~" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "Device:R" 
+      (pin_numbers 
+        (hide yes)) 
+      (pin_names 
+        (offset 0)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (property "Reference" "R" 
+        (at 2.032 0 90) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Value" "R" 
+        (at 0 0 90) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Footprint" "" 
+        (at -1.778 0 90) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Datasheet" "~" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Description" "Resistor" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_keywords" "R res resistor" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_fp_filters" "R_*" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (symbol "R_0_1" 
+        (rectangle 
+          (start -1.016 -2.54) 
+          (end 1.016 2.54) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type none)))) 
+      (symbol "R_1_1" 
+        (pin passive line 
+          (at 0 3.81 270) 
+          (length 1.27) 
+          (name "~" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 0 -3.81 90) 
+          (length 1.27) 
+          (name "~" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "Regulator_Switching:TPS54360DDA" 
+      (pin_names 
+        (offset 0.254)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (property "Reference" "U" 
+        (at -7.62 11.43 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify left))) 
+      (property "Value" "TPS54360DDA" 
+        (at -7.62 8.890000000000001 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify left))) 
+      (property "Footprint" "Package_SO:TI_SO-PowerPAD-8_ThermalVias" 
+        (at 1.27 -11.43 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27) 
+            (italic yes)) 
+          (justify left) 
+          (hide yes))) 
+      (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps54360.pdf" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Description" "3.5A, Step Down DC-DC Converter with Eco-mode, 4.5-60V Input Voltage, PowerSO-8" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_keywords" "Step-Down DC-DC Switching Regulator High Voltage High Frequency" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_fp_filters" "TI*SO*PowerPAD*ThermalVias*" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (symbol "TPS54360DDA_0_1" 
+        (rectangle 
+          (start -7.62 7.62) 
+          (end 7.62 -10.16) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type background)))) 
+      (symbol "TPS54360DDA_1_1" 
+        (pin power_in line 
+          (at -10.16 5.08 0) 
+          (length 2.54) 
+          (name "VIN" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin input line 
+          (at -10.16 0 0) 
+          (length 2.54) 
+          (name "RT/CLK" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "4" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin input line 
+          (at -10.16 -7.62 0) 
+          (length 2.54) 
+          (name "EN" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "3" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin power_in line 
+          (at -2.54 -12.7 90) 
+          (length 2.54) 
+          (name "GND" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "7" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin power_in line 
+          (at 0 -12.7 90) 
+          (length 2.54) 
+          (name "GNDPAD" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "9" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin input line 
+          (at 10.16 5.08 180) 
+          (length 2.54) 
+          (name "BOOT" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin output line 
+          (at 10.16 0 180) 
+          (length 2.54) 
+          (name "SW" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "8" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 10.16 -2.54 180) 
+          (length 2.54) 
+          (name "COMP" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "6" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin input line 
+          (at 10.16 -7.62 180) 
+          (length 2.54) 
+          (name "FB" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "5" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "power:GND" 
+      (power) 
+      (pin_numbers 
+        (hide yes)) 
+      (pin_names 
+        (offset 0) 
+        (hide yes)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (property "Reference" "#PWR" 
+        (at 0 -6.35 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Value" "GND" 
+        (at 0 -3.81 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Footprint" "" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Datasheet" "" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Description" "Power symbol creates a global label with name \"GND\" , ground" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_keywords" "global power" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (symbol "GND_0_1" 
+        (polyline 
+          (pts 
+            (xy 0 0) 
+            (xy 0 -1.27) 
+            (xy 1.27 -1.27) 
+            (xy 0 -2.54) 
+            (xy -1.27 -1.27) 
+            (xy 0 -1.27)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none)))) 
+      (symbol "GND_1_1" 
+        (pin power_in line 
+          (at 0 0 270) 
+          (length 0) 
+          (name "~" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "power:PWR_FLAG" 
+      (power) 
+      (pin_numbers 
+        (hide yes)) 
+      (pin_names 
+        (offset 0) 
+        (hide yes)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (property "Reference" "#FLG" 
+        (at 0 1.905 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Value" "PWR_FLAG" 
+        (at 0 3.81 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Footprint" "" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Datasheet" "~" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "Description" "Special symbol for telling ERC where power comes from" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (property "ki_keywords" "flag power" 
+        (at 0 0 0) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (hide yes))) 
+      (symbol "PWR_FLAG_0_0" 
+        (pin power_out line 
+          (at 0 0 90) 
+          (length 0) 
+          (name "~" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (symbol "PWR_FLAG_0_1" 
+        (polyline 
+          (pts 
+            (xy 0 0) 
+            (xy 0 1.27) 
+            (xy -1.016 1.905) 
+            (xy 0 2.54) 
+            (xy 1.016 1.905) 
+            (xy 0 1.27)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none)))) 
+      (embedded_fonts no))) 
+  (text "Vout: 5V@3A" 
+    (exclude_from_sim no) 
+    (at 208.28 93.98 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "1f10db50-c322-4d35-950e-b6823d38e45d")) 
+  (text "VIN: 20 - 60V" 
+    (exclude_from_sim no) 
+    (at 80.01000000000001 67.31 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "35b2866f-dd58-49ba-9a79-3ad18b2e2e61")) 
+  (text "GND Pad for box shielding" 
+    (exclude_from_sim no) 
+    (at 62.23 118.11 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "4c0bdf53-13d1-4f2f-b555-80f8dab3f8b7")) 
+  (text "D2 is for inverse voltage protection" 
+    (exclude_from_sim no) 
+    (at 80.01000000000001 69.84999999999999 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "4edc66cd-a83c-4d56-9dae-413b92127f45")) 
+  (text "D4 is optional, for transient voltage suppressor" 
+    (exclude_from_sim no) 
+    (at 80.01000000000001 72.39 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "6414677c-3311-41fa-8bf6-b3c04aeef4e1")) 
+  (text "Vout: 12V@3A" 
+    (exclude_from_sim no) 
+    (at 217.17 48.26 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "83cff0da-595c-45d7-8c17-319f2bd8af49")) 
+  (text "Power Supply Module" 
+    (exclude_from_sim no) 
+    (at 60.96 44.45 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27) 
+        (thickness 0.254) 
+        (bold yes)) 
+      (justify left bottom)) 
+    (uuid "a7d0354b-66ec-4e19-89cd-0711e6bae599")) 
+  (text "Always follow NEC guidelines for applying low-voltage fuses. Generally,\nthe MINIMUM fuse size should be based on 125% of the circuits full load\ncurrent. Time-delay fuses should be used for inductive loads." 
+    (exclude_from_sim no) 
+    (at 59.69 92.70999999999999 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "ced9e2a3-5d98-459c-bbd7-eb727d225104")) 
+  (text "101756 / f (khz) = R" 
+    (exclude_from_sim no) 
+    (at 139.7 64.77 0) 
+    (effects 
+      (font 
+        (size 1.524 1.524))) 
+    (uuid "f440910c-ba26-455f-a26c-f54278ec2b34")) 
+  (junction 
+    (at 191.77 105.41) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "02fcb8c2-d793-4e74-a687-9b1100d07ce4")) 
+  (junction 
+    (at 234.95 57.15) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "0d69e993-eac5-49fc-add6-cfda7ea79749")) 
+  (junction 
+    (at 220.98 78.73999999999999) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "0d8af0db-4473-448f-b12f-b962d39dab9e")) 
+  (junction 
+    (at 220.98 114.3) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "19800f1a-030f-4cf8-9070-621153e2c9ef")) 
+  (junction 
+    (at 149.86 97.79000000000001) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "1aa3e191-5f80-4599-a39a-1ca625d778bf")) 
+  (junction 
+    (at 195.58 78.73999999999999) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "2a420b43-dd76-4e37-90ed-8ba4b5103aaa")) 
+  (junction 
+    (at 201.93 102.87) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "3058d859-0080-43bf-90ac-08018bab8c41")) 
+  (junction 
+    (at 196.85 102.87) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "3a03d437-14bf-4e20-88c3-14333e59d0f9")) 
+  (junction 
+    (at 191.77 59.69) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "3bce841b-a6ae-4864-9d52-6fd29c8449d2")) 
+  (junction 
+    (at 220.98 68.58) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "3edb581f-d4cd-44e5-9c52-e1cf9d03f976")) 
+  (junction 
+    (at 201.93 78.73999999999999) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "53611c78-71e3-4170-99f2-df94c3ff49f2")) 
+  (junction 
+    (at 95.25 50.8) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "591c8c1c-7d83-40a8-837b-ed9820bb485a")) 
+  (junction 
+    (at 228.6 102.87) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "5aa4a8fe-374c-445a-be5a-2079a84e1a3c")) 
+  (junction 
+    (at 191.77 78.73999999999999) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "5afd60e4-71e8-48b9-ba6b-8f87baa597d7")) 
+  (junction 
+    (at 66.04000000000001 50.8) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "6d5d429b-dc6d-42d3-be55-d8efa804a062")) 
+  (junction 
+    (at 171.45 78.73999999999999) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "7c4473bc-bae5-43e4-859c-2204bd0e767e")) 
+  (junction 
+    (at 228.6 124.46) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "7efbd7fa-8018-4327-8082-c9b37bc427e4")) 
+  (junction 
+    (at 195.58 124.46) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "84d72629-9fe7-438b-9447-81386f2ed8a7")) 
+  (junction 
+    (at 201.93 57.15) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "87e7ffbe-5e47-4c65-aa4b-e6a5cc5226a3")) 
+  (junction 
+    (at 233.68 102.87) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "89e92b8e-25bd-4b42-a446-41c3214c78f6")) 
+  (junction 
+    (at 173.99 78.73999999999999) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "8aaf7fe6-03e6-4981-bd16-2b52db3c5165")) 
+  (junction 
+    (at 173.99 124.46) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "96e93738-e769-4cbd-aefd-ce3093ca17a9")) 
+  (junction 
+    (at 104.14 50.8) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "9a230257-d9f4-4005-bbf1-00f3cf3fda98")) 
+  (junction 
+    (at 220.98 57.15) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "9bd65bf4-d9b4-43ed-b5b3-2c192dc82f04")) 
+  (junction 
+    (at 228.6 57.15) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "a10ffebe-e254-4b21-a4c4-d53bcaa2af13")) 
+  (junction 
+    (at 104.14 60.96) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "b35ef583-8f83-421d-ac00-f7c75581a7da")) 
+  (junction 
+    (at 228.6 78.73999999999999) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "b807cb2d-dfaa-4353-98cb-22bb033dccc8")) 
+  (junction 
+    (at 233.68 124.46) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "bcdea736-f548-4fa7-96ac-b2b13973c670")) 
+  (junction 
+    (at 220.98 124.46) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "bfe35ad5-7a75-4fb5-80f4-0fe056e744de")) 
+  (junction 
+    (at 146.05 52.07) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "c00fd84e-942e-4229-8d63-da4ddcc4e31f")) 
+  (junction 
+    (at 201.93 124.46) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "c2e22cb7-a5a9-421a-a2c8-498935ff21a7")) 
+  (junction 
+    (at 234.95 78.73999999999999) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "d46dab74-83f2-4f84-a269-e0723409a492")) 
+  (junction 
+    (at 171.45 124.46) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "d8dba557-9b8e-4bea-9bd1-6f91793270de")) 
+  (junction 
+    (at 191.77 124.46) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "daf3afcb-19f4-4985-b97a-59054b8636b1")) 
+  (junction 
+    (at 220.98 102.87) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "e4c3fa95-ddbc-46e0-8ac5-aa4cc60d8a46")) 
+  (junction 
+    (at 196.85 57.15) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "e6746e06-468e-4630-898c-2d0056622f5c")) 
+  (no_connect 
+    (at 163.83 110.49) 
+    (uuid "e3a8c259-56a9-48d0-ab88-7b4184fca9f6")) 
+  (no_connect 
+    (at 163.83 64.77) 
+    (uuid "f873ddd4-1fbe-413d-b90e-1fc8b5021144")) 
+  (wire 
+    (pts 
+      (xy 201.93 102.87) 
+      (xy 208.28 102.87)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "009cdcdf-091b-4d5e-b6b6-e487d307b46e")) 
+  (wire 
+    (pts 
+      (xy 201.93 57.15) 
+      (xy 201.93 59.69)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "03432d0c-1b69-4f9e-8c40-852b5140e3d7")) 
+  (wire 
+    (pts 
+      (xy 220.98 114.3) 
+      (xy 217.17 114.3)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "061e5ecc-f2c0-41e8-a8e2-7ec5615aaaa7")) 
+  (wire 
+    (pts 
+      (xy 156.21 78.73999999999999) 
+      (xy 171.45 78.73999999999999)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "0a27a057-cb9d-4a52-8597-e6cba6bf0104")) 
+  (wire 
+    (pts 
+      (xy 146.05 52.07) 
+      (xy 163.83 52.07)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "0a4da3ea-4ac6-4e07-a0ce-ad9c553739ea")) 
+  (wire 
+    (pts 
+      (xy 95.25 60.96) 
+      (xy 104.14 60.96)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "0c02d63e-46a5-44b1-8738-623edb54e8d8")) 
+  (wire 
+    (pts 
+      (xy 66.04000000000001 62.23) 
+      (xy 66.04000000000001 60.96)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "1032cd6b-d817-4e75-aa50-84385c306a2c")) 
+  (wire 
+    (pts 
+      (xy 73.66 109.22) 
+      (xy 77.47 109.22)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "134a2c75-4669-4b4d-a6ab-a40088c77a91")) 
+  (wire 
+    (pts 
+      (xy 104.14 49.53) 
+      (xy 104.14 50.8)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "15d83d45-05d5-477c-8748-bf6019e7b961")) 
+  (wire 
+    (pts 
+      (xy 228.6 57.15) 
+      (xy 228.6 66.04000000000001)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "17c7926a-50a5-4b40-a977-f6f2120d56f2")) 
+  (wire 
+    (pts 
+      (xy 191.77 105.41) 
+      (xy 191.77 107.95)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "19234c9d-3b8b-4dcc-befa-25235bdc1aa7")) 
+  (wire 
+    (pts 
+      (xy 195.58 105.41) 
+      (xy 195.58 114.3)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "1dea7053-606f-48e4-a359-9bdd36868399")) 
+  (wire 
+    (pts 
+      (xy 184.15 102.87) 
+      (xy 196.85 102.87)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "231665e1-61dc-4091-8b3d-37c141b1a68a")) 
+  (wire 
+    (pts 
+      (xy 191.77 59.69) 
+      (xy 195.58 59.69)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "245859bc-b736-40d5-b963-3d26896fe4ad")) 
+  (wire 
+    (pts 
+      (xy 191.77 124.46) 
+      (xy 195.58 124.46)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "24954245-c068-4e9f-a982-6680bbd3bfa8")) 
+  (wire 
+    (pts 
+      (xy 220.98 124.46) 
+      (xy 220.98 123.19)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "2a3cc9cb-95cd-4a75-b184-a6b12f240fc0")) 
+  (wire 
+    (pts 
+      (xy 142.24 52.07) 
+      (xy 146.05 52.07)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "2b94c184-4e5b-4472-aa86-f8a49e530a93")) 
+  (wire 
+    (pts 
+      (xy 195.58 78.73999999999999) 
+      (xy 195.58 73.66)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "2cbca41b-782c-44f4-b7b8-7ab8b8937206")) 
+  (wire 
+    (pts 
+      (xy 95.25 52.07) 
+      (xy 95.25 50.8)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "2cc9a41d-d733-430f-8352-d403908eb7e7")) 
+  (wire 
+    (pts 
+      (xy 191.77 78.73999999999999) 
+      (xy 191.77 76.2)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "2cea9552-5a5f-4f46-8171-28df97dcda84")) 
+  (wire 
+    (pts 
+      (xy 157.48 102.87) 
+      (xy 163.83 102.87)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "2d3ee18c-002f-4fdc-bb8d-dd466fd6d9f8")) 
+  (wire 
+    (pts 
+      (xy 201.93 124.46) 
+      (xy 201.93 113.03)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "2d96e474-7ef4-47a1-8273-774cca0f8493")) 
+  (wire 
+    (pts 
+      (xy 173.99 78.73999999999999) 
+      (xy 173.99 69.84999999999999)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "2ed55a82-e2a3-44b5-ba41-730c33aebc9e")) 
+  (wire 
+    (pts 
+      (xy 173.99 124.46) 
+      (xy 191.77 124.46)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "3312672b-45a2-4147-b442-0c54a54dab96")) 
+  (wire 
+    (pts 
+      (xy 228.6 57.15) 
+      (xy 234.95 57.15)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "3442472d-e277-43ac-b2bb-c4e98864fb7d")) 
+  (wire 
+    (pts 
+      (xy 234.95 57.15) 
+      (xy 234.95 66.04000000000001)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "357a5432-c294-4748-9dcd-16598dd5608b")) 
+  (wire 
+    (pts 
+      (xy 157.48 124.46) 
+      (xy 171.45 124.46)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "392eca47-411d-4e6d-9a0a-cb1228166c9b")) 
+  (wire 
+    (pts 
+      (xy 195.58 97.79000000000001) 
+      (xy 196.85 97.79000000000001)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "3981dc76-aa12-4246-9f9d-1ce7ce9a0e7f")) 
+  (wire 
+    (pts 
+      (xy 173.99 78.73999999999999) 
+      (xy 191.77 78.73999999999999)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "3ed96fe9-adb0-4cdf-9ddd-089725b332cd")) 
+  (wire 
+    (pts 
+      (xy 228.6 102.87) 
+      (xy 233.68 102.87)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "3f1e8f87-92a8-4651-b851-3a577b59e880")) 
+  (wire 
+    (pts 
+      (xy 234.95 78.73999999999999) 
+      (xy 234.95 80.01000000000001)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "3f78bd4c-3df9-4dc0-91d1-a29c052a3a63")) 
+  (wire 
+    (pts 
+      (xy 173.99 124.46) 
+      (xy 173.99 115.57)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "4033bf71-4d37-4db0-b6c1-31d96d4d5c24")) 
+  (wire 
+    (pts 
+      (xy 201.93 78.73999999999999) 
+      (xy 201.93 67.31)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "41139ab0-fe19-4ef3-881e-4411e5614023")) 
+  (wire 
+    (pts 
+      (xy 220.98 113.03) 
+      (xy 220.98 114.3)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "424b2d20-8888-4d2f-9f47-207aceae5275")) 
+  (wire 
+    (pts 
+      (xy 184.15 52.07) 
+      (xy 190.5 52.07)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "43083706-1d10-4bc1-a0dc-d49fda56d222")) 
+  (wire 
+    (pts 
+      (xy 233.68 102.87) 
+      (xy 233.68 111.76)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "43640367-5b8d-4667-be92-6c2363fd86f7")) 
+  (wire 
+    (pts 
+      (xy 157.48 114.3) 
+      (xy 157.48 124.46)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "45101be0-d1c6-443c-902e-3d5061d8cfee")) 
+  (wire 
+    (pts 
+      (xy 233.68 124.46) 
+      (xy 233.68 125.73)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "45bab24f-abe0-4342-a89e-b4e1f0f4c7cd")) 
+  (wire 
+    (pts 
+      (xy 201.93 102.87) 
+      (xy 201.93 105.41)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "464627f8-e52d-4f39-ba8c-fb7846808628")) 
+  (wire 
+    (pts 
+      (xy 220.98 78.73999999999999) 
+      (xy 220.98 77.47)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "497feaa3-31db-4c75-aa87-34d5a5ae9373")) 
+  (wire 
+    (pts 
+      (xy 228.6 116.84) 
+      (xy 228.6 124.46)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "4bf63ce9-2e39-4a68-9731-1984e3ff3aa6")) 
+  (wire 
+    (pts 
+      (xy 171.45 124.46) 
+      (xy 173.99 124.46)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "5188d1ea-aeed-44be-996e-752f88a037c0")) 
+  (wire 
+    (pts 
+      (xy 149.86 97.79000000000001) 
+      (xy 163.83 97.79000000000001)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "53e3052b-12b3-4a86-b8c2-2167d3a38a39")) 
+  (wire 
+    (pts 
+      (xy 196.85 102.87) 
+      (xy 201.93 102.87)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "5400072c-0b49-4249-8e87-7dd0b8f9d2a5")) 
+  (wire 
+    (pts 
+      (xy 64.77 50.8) 
+      (xy 66.04000000000001 50.8)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "5620761b-3b62-41a7-a31f-bac07f48525f")) 
+  (wire 
+    (pts 
+      (xy 220.98 68.58) 
+      (xy 217.17 68.58)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "5c8b7dda-f78a-4f86-8799-beeb3329cb2a")) 
+  (wire 
+    (pts 
+      (xy 184.15 97.79000000000001) 
+      (xy 190.5 97.79000000000001)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "5d16eb2b-a198-48c7-9ae1-2906ec725da2")) 
+  (wire 
+    (pts 
+      (xy 201.93 57.15) 
+      (xy 208.28 57.15)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "5e2246eb-8c7f-450b-b1b4-83bf3cb9f737")) 
+  (wire 
+    (pts 
+      (xy 191.77 78.73999999999999) 
+      (xy 195.58 78.73999999999999)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "6234ca1c-edef-458b-b70f-316e6eaf809c")) 
+  (wire 
+    (pts 
+      (xy 104.14 50.8) 
+      (xy 109.22 50.8)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "6da71d32-919e-4452-93e3-cbad38efc380")) 
+  (wire 
+    (pts 
+      (xy 233.68 116.84) 
+      (xy 233.68 124.46)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "6f1c8540-ed60-4f9b-889b-3c1277c252a0")) 
+  (wire 
+    (pts 
+      (xy 147.32 97.79000000000001) 
+      (xy 149.86 97.79000000000001)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "6fcde6a8-3fec-4b8d-a498-4f09103495ad")) 
+  (wire 
+    (pts 
+      (xy 191.77 105.41) 
+      (xy 195.58 105.41)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "709762cd-cdfd-40f1-bca5-0544e2544d27")) 
+  (wire 
+    (pts 
+      (xy 220.98 57.15) 
+      (xy 228.6 57.15)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "74a34dd5-8faf-4533-ae5f-db75a807e1d4")) 
+  (wire 
+    (pts 
+      (xy 195.58 59.69) 
+      (xy 195.58 68.58)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "7bc41228-03af-4327-932b-a8c09ef8acab")) 
+  (wire 
+    (pts 
+      (xy 228.6 71.12) 
+      (xy 228.6 78.73999999999999)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "81ed2d82-10e2-46ba-8820-390759294b95")) 
+  (wire 
+    (pts 
+      (xy 191.77 71.12) 
+      (xy 191.77 69.84999999999999)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "8319f876-eea1-4f3f-a1fa-8dadb802b137")) 
+  (wire 
+    (pts 
+      (xy 104.14 60.96) 
+      (xy 104.14 62.23)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "8480deda-93a9-42cf-8475-350e7d4b8eaf")) 
+  (wire 
+    (pts 
+      (xy 220.98 124.46) 
+      (xy 228.6 124.46)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "85bca2fc-35bf-4859-a70f-16c1bce93cf2")) 
+  (wire 
+    (pts 
+      (xy 237.49 57.15) 
+      (xy 234.95 57.15)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "883b7766-d2c4-4499-8a66-e0c927c36c26")) 
+  (wire 
+    (pts 
+      (xy 104.14 50.8) 
+      (xy 104.14 52.07)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "8b12b880-9df8-4abf-a7a8-bf58e50e2d9d")) 
+  (wire 
+    (pts 
+      (xy 220.98 102.87) 
+      (xy 228.6 102.87)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "8b88d2db-2b75-48df-8d5a-16118c015254")) 
+  (wire 
+    (pts 
+      (xy 171.45 69.84999999999999) 
+      (xy 171.45 78.73999999999999)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "8ff5b57c-f968-413a-b5d2-563b92169854")) 
+  (wire 
+    (pts 
+      (xy 220.98 78.73999999999999) 
+      (xy 228.6 78.73999999999999)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "92ea2d66-e82b-46d2-a553-73042944f3f1")) 
+  (wire 
+    (pts 
+      (xy 157.48 106.68) 
+      (xy 157.48 102.87)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "9481d5cf-8796-4a1c-abab-2f1ff96ab4ae")) 
+  (wire 
+    (pts 
+      (xy 201.93 124.46) 
+      (xy 220.98 124.46)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "9645b7ec-7293-437b-8d42-06fe9e9f7c07")) 
+  (wire 
+    (pts 
+      (xy 213.36 57.15) 
+      (xy 220.98 57.15)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "98e519ce-6d30-4fb4-be0f-45a25b621304")) 
+  (wire 
+    (pts 
+      (xy 196.85 57.15) 
+      (xy 201.93 57.15)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "9ded2b31-712c-42f1-a402-9d962d4110c3")) 
+  (wire 
+    (pts 
+      (xy 66.04000000000001 50.8) 
+      (xy 69.84999999999999 50.8)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "a2026a3e-14bb-48f9-978a-01a06123d094")) 
+  (wire 
+    (pts 
+      (xy 220.98 57.15) 
+      (xy 220.98 59.69)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "a9d2b59c-7053-4ada-bd65-a8ca2cb1cf6c")) 
+  (wire 
+    (pts 
+      (xy 95.25 59.69) 
+      (xy 95.25 60.96)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "abdc0f01-08fa-418a-8405-cb49dfe1e842")) 
+  (wire 
+    (pts 
+      (xy 77.47 50.8) 
+      (xy 81.28 50.8)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "abee36ef-d0e8-42e2-9bfc-67ee7c9cbd53")) 
+  (wire 
+    (pts 
+      (xy 195.58 78.73999999999999) 
+      (xy 201.93 78.73999999999999)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "af3fc869-89c2-4ab3-9ccf-a3b4281e13a3")) 
+  (wire 
+    (pts 
+      (xy 95.25 50.8) 
+      (xy 104.14 50.8)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "b1a2e486-7f3a-40a9-91b0-9eb8e6133ed3")) 
+  (wire 
+    (pts 
+      (xy 66.04000000000001 53.34) 
+      (xy 66.04000000000001 50.8)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "b3b05bc8-591b-4c85-8d02-b0696c7cfafc")) 
+  (wire 
+    (pts 
+      (xy 234.95 71.12) 
+      (xy 234.95 78.73999999999999)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "b511f536-eb70-4ebd-a0d5-7ef880bc517f")) 
+  (wire 
+    (pts 
+      (xy 156.21 60.96) 
+      (xy 156.21 57.15)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "b75131f3-ee24-49e8-8d8a-a9d231e6a652")) 
+  (wire 
+    (pts 
+      (xy 201.93 78.73999999999999) 
+      (xy 220.98 78.73999999999999)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "b7938f13-2979-4a79-ab43-091dd305e1d1")) 
+  (wire 
+    (pts 
+      (xy 191.77 116.84) 
+      (xy 191.77 115.57)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "b8554dd6-0b50-48c0-a120-a9ca44137fef")) 
+  (wire 
+    (pts 
+      (xy 228.6 124.46) 
+      (xy 233.68 124.46)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "b9051c2e-5716-4290-a6de-5bd4df81ea61")) 
+  (wire 
+    (pts 
+      (xy 196.85 97.79000000000001) 
+      (xy 196.85 102.87)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "b97f23e7-a61a-43a5-aca5-87743723d0e7")) 
+  (wire 
+    (pts 
+      (xy 228.6 78.73999999999999) 
+      (xy 234.95 78.73999999999999)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "bb8b0ef1-801d-4667-aef0-4f68314535fd")) 
+  (wire 
+    (pts 
+      (xy 104.14 59.69) 
+      (xy 104.14 60.96)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "c046376e-64a7-4175-8428-d5364ce5ca37")) 
+  (wire 
+    (pts 
+      (xy 220.98 68.58) 
+      (xy 220.98 69.84999999999999)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "c0d340c9-cd27-4477-bd64-ac06d132b5f4")) 
+  (wire 
+    (pts 
+      (xy 195.58 52.07) 
+      (xy 196.85 52.07)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "c1805b0a-e1bb-4d2f-8339-87e572ffb87e")) 
+  (wire 
+    (pts 
+      (xy 184.15 57.15) 
+      (xy 196.85 57.15)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "c3ab6d23-c139-4c53-9739-270bebe58f76")) 
+  (wire 
+    (pts 
+      (xy 220.98 114.3) 
+      (xy 220.98 115.57)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "c3ad5542-c5eb-4b91-a73a-0772ff334a98")) 
+  (wire 
+    (pts 
+      (xy 156.21 68.58) 
+      (xy 156.21 78.73999999999999)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "c85c6a42-6bda-4c15-a885-2cf30afb3583")) 
+  (wire 
+    (pts 
+      (xy 220.98 67.31) 
+      (xy 220.98 68.58)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "c9af00c9-0c62-4593-b6f2-74a37dacdfec")) 
+  (wire 
+    (pts 
+      (xy 228.6 102.87) 
+      (xy 228.6 111.76)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "d463b901-8bb8-4ca6-8f9c-c81400ab679b")) 
+  (wire 
+    (pts 
+      (xy 213.36 102.87) 
+      (xy 220.98 102.87)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "d6b12dbb-d7b8-4190-8220-50c9ada01510")) 
+  (wire 
+    (pts 
+      (xy 191.77 59.69) 
+      (xy 191.77 62.23)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "d6e7dddf-026c-4459-8ea2-9ded61656849")) 
+  (wire 
+    (pts 
+      (xy 220.98 102.87) 
+      (xy 220.98 105.41)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "debcf612-aa21-4089-930f-b6d8e3e47360")) 
+  (wire 
+    (pts 
+      (xy 195.58 124.46) 
+      (xy 195.58 119.38)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "dfd3f036-70c5-45cb-92d7-13c872514953")) 
+  (wire 
+    (pts 
+      (xy 156.21 57.15) 
+      (xy 163.83 57.15)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "e2a06dcd-28a3-45b9-aa2d-ca79e337a44b")) 
+  (wire 
+    (pts 
+      (xy 171.45 78.73999999999999) 
+      (xy 173.99 78.73999999999999)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "e563f377-83e0-4303-83e9-8181db577d39")) 
+  (wire 
+    (pts 
+      (xy 184.15 59.69) 
+      (xy 191.77 59.69)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "e769664c-779a-49a9-9381-185eb1da371c")) 
+  (wire 
+    (pts 
+      (xy 195.58 124.46) 
+      (xy 201.93 124.46)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "ef9a6fb1-252b-4000-94c1-1824e172ffb1")) 
+  (wire 
+    (pts 
+      (xy 191.77 124.46) 
+      (xy 191.77 121.92)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "f00858d5-5f2d-44cc-b756-779930912ee3")) 
+  (wire 
+    (pts 
+      (xy 88.90000000000001 50.8) 
+      (xy 95.25 50.8)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "f073fbec-62d6-4589-b8a3-10b393a22908")) 
+  (wire 
+    (pts 
+      (xy 171.45 115.57) 
+      (xy 171.45 124.46)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "f3f950aa-fe58-4171-a476-14a0aff76e94")) 
+  (wire 
+    (pts 
+      (xy 196.85 52.07) 
+      (xy 196.85 57.15)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "f8c3783d-c839-4feb-a2b1-c8bfb4f4292e")) 
+  (wire 
+    (pts 
+      (xy 236.22 102.87) 
+      (xy 233.68 102.87)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "fabd54ea-5f8f-4362-aff3-4db323cd8013")) 
+  (wire 
+    (pts 
+      (xy 184.15 105.41) 
+      (xy 191.77 105.41)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "fb8a5463-9c9c-4ec3-a7a3-f5856d0b938a")) 
+  (label "SW_VIN" 
+    (at 147.32 97.79000000000001 180) 
+    (effects 
+      (font 
+        (size 1.524 1.524)) 
+      (justify right bottom)) 
+    (uuid "29fcd436-9307-4d7c-aff5-986b036407e0")) 
+  (label "FB12" 
+    (at 217.17 68.58 180) 
+    (effects 
+      (font 
+        (size 1.524 1.524)) 
+      (justify right bottom)) 
+    (uuid "30d752f4-6687-4c35-82ab-455abef0a3d6")) 
+  (label "SW_VIN" 
+    (at 142.24 52.07 180) 
+    (effects 
+      (font 
+        (size 1.524 1.524)) 
+      (justify right bottom)) 
+    (uuid "4dd0422b-22be-4385-b94e-7e7724d16519")) 
+  (label "SW_VIN" 
+    (at 109.22 50.8 0) 
+    (effects 
+      (font 
+        (size 1.524 1.524)) 
+      (justify left bottom)) 
+    (uuid "7242d3fd-cf9d-4103-a03c-8d05ae579586")) 
+  (label "FB12" 
+    (at 184.15 64.77 0) 
+    (effects 
+      (font 
+        (size 1.524 1.524)) 
+      (justify left bottom)) 
+    (uuid "80c332b6-cb9d-44f7-8e84-8bc414e666be")) 
+  (label "FB5" 
+    (at 184.15 110.49 0) 
+    (effects 
+      (font 
+        (size 1.524 1.524)) 
+      (justify left bottom)) 
+    (uuid "92cd1a0a-3cd0-4a7f-b3e1-8a344347805b")) 
+  (label "FB5" 
+    (at 217.17 114.3 180) 
+    (effects 
+      (font 
+        (size 1.524 1.524)) 
+      (justify right bottom)) 
+    (uuid "ad65e994-154f-4638-b074-96939a27c559")) 
+  (hierarchical_label "V12" 
+    (shape output) 
+    (at 237.49 57.15 0) 
+    (effects 
+      (font 
+        (size 1.524 1.524)) 
+      (justify left)) 
+    (uuid "3af17e20-0518-4dbf-87aa-ae021b7ae800")) 
+  (hierarchical_label "V5" 
+    (shape output) 
+    (at 236.22 102.87 0) 
+    (effects 
+      (font 
+        (size 1.524 1.524)) 
+      (justify left)) 
+    (uuid "7cd0a5e1-89f7-4e36-9603-5a1de7067b62")) 
+  (hierarchical_label "VIN" 
+    (shape input) 
+    (at 64.77 50.8 180) 
+    (effects 
+      (font 
+        (size 1.524 1.524)) 
+      (justify right)) 
+    (uuid "9ca47608-1b95-4770-bb41-9d6efcbe3a6a")) 
+  (symbol 
+    (lib_id "Device:FerriteBead") 
+    (at 73.66 50.8 270) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-000057e7000d") 
+    (property "Reference" "FB1" 
+      (at 73.66 54.991 90) 
+      (effects 
+        (font 
+          (size 1.524 1.524)))) 
+    (property "Value" "220R" 
+      (at 73.66 46.99 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)))) 
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" 
+      (at 73.66 50.8 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://pim.murata.com/asset/pim4/ferriteBeadInductortypefilter/ENFA0005_PDF_FERRITEBEADINDUCTORTYPEFILTER?lastModifiedDatetime=20260105172120" 
+      (at 73.66 50.8 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "Ferrite Bead" 
+      (at 73.66 50.8 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "0.11" 
+      (at 73.66 50.8 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Murata" 
+      (at 73.66 50.8 90) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "BLM21PG221SN1D" 
+      (at 73.66 50.8 90) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "BLM21PG221SN1D" 
+      (at 73.66 50.8 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "75896c4b-74a0-49d2-be1b-fc88d622e50b")) 
+    (pin "2" 
+      (uuid "96bfc4e2-9c4b-4653-8e6f-d9bcf190424b")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "FB1") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:Fuse") 
+    (at 85.09 50.8 270) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-000057e70188") 
+    (property "Reference" "F1" 
+      (at 85.09 52.832 90) 
+      (effects 
+        (font 
+          (size 1.524 1.524)))) 
+    (property "Value" "Fuse" 
+      (at 85.09 48.514 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)))) 
+    (property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" 
+      (at 85.09 50.8 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/sf-1206sp-m.pdf?sfvrsn=4f8676f6_13" 
+      (at 85.09 50.8 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "Fuse" 
+      (at 85.09 50.8 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "0.73" 
+      (at 85.09 50.8 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Bourns" 
+      (at 85.09 50.8 90) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "SF-1206SP200M-2" 
+      (at 85.09 50.8 90) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "Littelfuse 1206SFS200F/63-2" 
+      (at 85.09 50.8 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "90cd2dcf-d0ad-4279-8e24-070950d6875b")) 
+    (pin "2" 
+      (uuid "d4ec759e-55e6-4165-81bf-7cc7b432a5aa")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "F1") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:D_Schottky") 
+    (at 95.25 55.88 270) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-000057e9650d") 
+    (property "Reference" "D1" 
+      (at 97.79000000000001 55.88 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)))) 
+    (property "Value" "D_Schottky" 
+      (at 92.70999999999999 55.88 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)))) 
+    (property "Footprint" "Diode_SMD:D_SMC_Handsoldering" 
+      (at 95.25 55.88 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2437/CDBC520-G%20Thru%20CDBC5100-G.pdf" 
+      (at 95.25 55.88 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "Schottky" 
+      (at 95.25 55.88 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "1.12" 
+      (at 95.25 55.88 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Comchip" 
+      (at 95.25 55.88 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "CDBC560-G" 
+      (at 95.25 55.88 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "CDBC560-G" 
+      (at 95.25 55.88 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "ac7f162a-13ad-4de1-9649-92b8daa2b875")) 
+    (pin "2" 
+      (uuid "c422879c-569d-43dc-86ad-db08c513eacb")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "D1") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 104.14 62.23 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-000057ebde5f") 
+    (property "Reference" "#PWR054" 
+      (at 104.14 68.58 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)) 
+        (hide yes))) 
+    (property "Value" "GND" 
+      (at 104.14 66.04000000000001 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)))) 
+    (property "Footprint" "" 
+      (at 104.14 62.23 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "" 
+      (at 104.14 62.23 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "" 
+      (at 104.14 62.23 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "215624e1-b77b-4ffe-98f4-4dd051939c99")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "#PWR054") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:PWR_FLAG") 
+    (at 104.14 49.53 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-000057ed5140") 
+    (property "Reference" "#FLG05" 
+      (at 104.14 47.117 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)) 
+        (hide yes))) 
+    (property "Value" "PWR_FLAG" 
+      (at 104.14 44.704 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)))) 
+    (property "Footprint" "" 
+      (at 104.14 49.53 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "" 
+      (at 104.14 49.53 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "" 
+      (at 104.14 49.53 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "3e91e0a0-2c89-4274-9d7b-5300b6233472")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "#FLG05") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Regulator_Switching:TPS54360DDA") 
+    (at 173.99 57.15 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-000057ef2c6b") 
+    (property "Reference" "U3" 
+      (at 166.37 45.72 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)) 
+        (justify left))) 
+    (property "Value" "TPS54360DDA" 
+      (at 166.37 48.26 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (justify left))) 
+    (property "Footprint" "Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias" 
+      (at 181.61 68.58 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016) 
+          (italic yes)) 
+        (hide yes))) 
+    (property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps54360" 
+      (at 173.99 57.15 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "" 
+      (at 173.99 57.15 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "4.56" 
+      (at 173.99 57.15 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "TI" 
+      (at 173.99 57.15 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "TPS54360DDAR" 
+      (at 173.99 57.15 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "TPS54360DDAR" 
+      (at 173.99 57.15 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "2" 
+      (uuid "10fa3aa6-8bbf-4342-b964-39d7ddd50e27")) 
+    (pin "4" 
+      (uuid "05934e69-a4ee-4bba-9f29-3b5c5ffa38b9")) 
+    (pin "3" 
+      (uuid "c1be977c-9482-4b17-a1af-4a76e73c229b")) 
+    (pin "7" 
+      (uuid "b2294224-918a-4823-8459-e8d3ccbcdf51")) 
+    (pin "9" 
+      (uuid "6786bf8f-1b02-43c7-ae9a-89f4f952b547")) 
+    (pin "1" 
+      (uuid "6ab03730-2cb7-455e-a339-8c9a80ba2453")) 
+    (pin "8" 
+      (uuid "ac9fd301-287e-4c65-947b-2b393319c187")) 
+    (pin "6" 
+      (uuid "ebc436c4-0297-45e3-8a3d-2ad291aa8a93")) 
+    (pin "5" 
+      (uuid "7c8a0f3e-1a49-46ef-8d2a-9f6702db818d")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "U3") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:R") 
+    (at 220.98 63.5 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-000057ef3a8b") 
+    (property "Reference" "R9" 
+      (at 223.012 63.5 90) 
+      (effects 
+        (font 
+          (size 1.524 1.524)))) 
+    (property "Value" "142K8" 
+      (at 220.98 63.5 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)))) 
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" 
+      (at 219.202 63.5 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L" 
+      (at 220.98 63.5 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "" 
+      (at 220.98 63.5 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "0.10" 
+      (at 220.98 63.5 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Yaogeo" 
+      (at 220.98 63.5 90) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "RC0805FR-07143KL" 
+      (at 220.98 63.5 90) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "CRCW0805147KFKEA" 
+      (at 220.98 63.5 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "98bd47a7-7332-4412-8f51-b0edc7237d4a")) 
+    (pin "2" 
+      (uuid "bf133567-6a20-4633-8f0e-1cd0ad7e6648")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "R9") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:C_Small") 
+    (at 234.95 68.58 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-000057ef47b6") 
+    (property "Reference" "C12" 
+      (at 235.204 66.80200000000001 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)) 
+        (justify left))) 
+    (property "Value" "47u" 
+      (at 235.204 70.61199999999999 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (justify left))) 
+    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder" 
+      (at 234.95 68.58 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EC81C476KE15-01.pdf" 
+      (at 234.95 68.58 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "Ceramic Capacitor" 
+      (at 234.95 68.58 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "0.851" 
+      (at 234.95 68.58 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Murata" 
+      (at 234.95 68.58 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "GRM32EC81C476KE15L" 
+      (at 234.95 68.58 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "GRM32ER61C476ME15L" 
+      (at 234.95 68.58 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "0313eec6-4c61-47fb-ad29-947648d6d8c6")) 
+    (pin "2" 
+      (uuid "202950f3-e87f-43c0-b36d-dfac83f677eb")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "C12") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:C_Small") 
+    (at 195.58 71.12 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-000057ef4969") 
+    (property "Reference" "C13" 
+      (at 195.834 69.342 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)) 
+        (justify left))) 
+    (property "Value" "10p" 
+      (at 195.834 73.152 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (justify left))) 
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" 
+      (at 195.58 71.12 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0805JRNPO9BN100" 
+      (at 195.58 71.12 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "Ceramic Capacitor" 
+      (at 195.58 71.12 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "0.10" 
+      (at 195.58 71.12 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Yageo" 
+      (at 195.58 71.12 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "CC0805JRNPO9BN100" 
+      (at 195.58 71.12 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "C0805C100K5GACTU" 
+      (at 195.58 71.12 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "356f40db-3d60-4366-8999-1614db559b35")) 
+    (pin "2" 
+      (uuid "81c7e2fc-0849-4ca9-a606-1e6cd9d8822b")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "C13") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:C_Small") 
+    (at 191.77 73.66 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-000057ef4e01") 
+    (property "Reference" "C14" 
+      (at 187.96 71.12 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)) 
+        (justify left))) 
+    (property "Value" "7n5" 
+      (at 186.69 73.66 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (justify left))) 
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" 
+      (at 191.77 73.66 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM2195C1H752JA01-01A.pdf" 
+      (at 191.77 73.66 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "Ceramic Capacitor" 
+      (at 191.77 73.66 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "0.17" 
+      (at 191.77 73.66 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Murata" 
+      (at 191.77 73.66 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "GRM2195C1H752JA01D" 
+      (at 191.77 73.66 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "GRM2195C1H752JA01D" 
+      (at 191.77 73.66 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "6b47c227-8496-4ec0-a116-e5ebe0d23acd")) 
+    (pin "2" 
+      (uuid "94f3c15f-2488-4a4e-b77a-7c7b971343e9")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "C14") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:R") 
+    (at 220.98 73.66 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-000057ef4f79") 
+    (property "Reference" "R12" 
+      (at 223.012 73.66 90) 
+      (effects 
+        (font 
+          (size 1.524 1.524)))) 
+    (property "Value" "10K2" 
+      (at 220.98 73.66 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)))) 
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" 
+      (at 219.202 73.66 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L" 
+      (at 220.98 73.66 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "" 
+      (at 220.98 73.66 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "0.10" 
+      (at 220.98 73.66 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Yaogeo" 
+      (at 220.98 73.66 90) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "RC0805FR-0710K2L " 
+      (at 220.98 73.66 90) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "CRCW080510K5FKEA" 
+      (at 220.98 73.66 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "11d93243-0685-4318-bed3-02cbb6150166")) 
+    (pin "2" 
+      (uuid "63b810fd-d72d-4d52-9515-c9527cc1ac89")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "R12") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:R") 
+    (at 191.77 66.04000000000001 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-000057ef5028") 
+    (property "Reference" "R11" 
+      (at 193.802 66.04000000000001 90) 
+      (effects 
+        (font 
+          (size 1.524 1.524)))) 
+    (property "Value" "26K7" 
+      (at 191.77 66.04000000000001 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)))) 
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" 
+      (at 189.992 66.04000000000001 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L" 
+      (at 191.77 66.04000000000001 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "" 
+      (at 191.77 66.04000000000001 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "0.10" 
+      (at 191.77 66.04000000000001 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Yaogeo" 
+      (at 191.77 66.04000000000001 90) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "RC0805FR-0726K7L" 
+      (at 191.77 66.04000000000001 90) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "CRCW080526K7FKEA" 
+      (at 191.77 66.04000000000001 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "45f2144e-ee83-478b-8af1-67ee66db89c7")) 
+    (pin "2" 
+      (uuid "4344effb-3e74-4a87-b2c0-4dbca87b2ad1")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "R11") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:R") 
+    (at 156.21 64.77 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-000057ef5103") 
+    (property "Reference" "R10" 
+      (at 158.242 64.77 90) 
+      (effects 
+        (font 
+          (size 1.524 1.524)))) 
+    (property "Value" "221K" 
+      (at 156.21 64.77 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)))) 
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" 
+      (at 154.432 64.77 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L" 
+      (at 156.21 64.77 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "" 
+      (at 156.21 64.77 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "0.10" 
+      (at 156.21 64.77 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Yaogeo" 
+      (at 156.21 64.77 90) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "RC0805FR-07221KL " 
+      (at 156.21 64.77 90) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "CRCW0805221KFKEA" 
+      (at 156.21 64.77 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "45802df5-f53d-480f-8998-bfab09d9fa74")) 
+    (pin "2" 
+      (uuid "8dab8066-7232-4c8d-8371-e6917fa5c9d9")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "R10") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:L_Small") 
+    (at 210.82 57.15 90) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-000057ef5218") 
+    (property "Reference" "L1" 
+      (at 210.82 55.118 90) 
+      (effects 
+        (font 
+          (size 1.524 1.524)))) 
+    (property "Value" "27u" 
+      (at 210.82 58.928 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)))) 
+    (property "Footprint" "Inductor_SMD:L_Bourns_SRR1210A" 
+      (at 210.82 57.15 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRR1210.pdf" 
+      (at 210.82 57.15 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "Inductor" 
+      (at 210.82 57.15 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "1.20" 
+      (at 210.82 57.15 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Bourns" 
+      (at 210.82 57.15 90) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "SRR1210-270M" 
+      (at 210.82 57.15 90) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "SRR1210-270M" 
+      (at 210.82 57.15 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "794b1893-6b84-4e92-8b54-64dc39d1b568")) 
+    (pin "2" 
+      (uuid "54f1c2f8-c850-4b6e-8ae6-a3cac31271cd")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "L1") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:D_Schottky") 
+    (at 201.93 63.5 270) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-000057ef65f4") 
+    (property "Reference" "D3" 
+      (at 204.47 63.5 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)))) 
+    (property "Value" "D_Schottky" 
+      (at 199.39 63.5 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)))) 
+    (property "Footprint" "Diode_SMD:D_SMC_Handsoldering" 
+      (at 201.93 63.5 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2437/CDBC520-G%20Thru%20CDBC5100-G.pdf" 
+      (at 201.93 63.5 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "Schottky" 
+      (at 201.93 63.5 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "1.12" 
+      (at 201.93 63.5 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Comchip" 
+      (at 201.93 63.5 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "CDBC560-G" 
+      (at 201.93 63.5 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "CDBC560-G" 
+      (at 201.93 63.5 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "5d1572bb-b088-48a5-b75c-6d5f0d3d19fe")) 
+    (pin "2" 
+      (uuid "5b6b1975-72c3-4286-a158-00a8fe5581e8")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "D3") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:C_Small") 
+    (at 193.04 52.07 90) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-000057efa4e3") 
+    (property "Reference" "C8" 
+      (at 191.262 51.816 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)) 
+        (justify left))) 
+    (property "Value" "100n" 
+      (at 195.072 51.816 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (justify left))) 
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" 
+      (at 193.04 52.07 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1284/CL21B104KACNNNC_Spec.pdf" 
+      (at 193.04 52.07 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "Ceramic Capacitor" 
+      (at 193.04 52.07 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "0.10" 
+      (at 193.04 52.07 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Samsung" 
+      (at 193.04 52.07 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "CL21B104KACNNNC" 
+      (at 193.04 52.07 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "08053C104KAT2A" 
+      (at 193.04 52.07 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "0ba4cfd7-c46d-4712-a0c8-c57e490fb689")) 
+    (pin "2" 
+      (uuid "a99ec511-6934-4c68-a59b-8c7d776d67f8")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "C8") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 234.95 80.01000000000001 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-000057f1159b") 
+    (property "Reference" "#PWR055" 
+      (at 234.95 86.36 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)) 
+        (hide yes))) 
+    (property "Value" "GND" 
+      (at 234.95 83.81999999999999 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)))) 
+    (property "Footprint" "" 
+      (at 234.95 80.01000000000001 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "" 
+      (at 234.95 80.01000000000001 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "" 
+      (at 234.95 80.01000000000001 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "93f9381e-76db-4679-a315-51f2b2fceb99")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "#PWR055") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:C_Small") 
+    (at 146.05 54.61 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-000057f1a1a0") 
+    (property "Reference" "C9" 
+      (at 146.304 52.832 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)) 
+        (justify left))) 
+    (property "Value" "2u2" 
+      (at 146.304 56.642 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (justify left))) 
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" 
+      (at 146.05 54.61 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71E225KE11-01.pdf" 
+      (at 146.05 54.61 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "Ceramic Capacitor" 
+      (at 146.05 54.61 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "0.15" 
+      (at 146.05 54.61 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Murata" 
+      (at 146.05 54.61 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "GRM21BR71E225KE11L " 
+      (at 146.05 54.61 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "C3225X7R2A225K230AB" 
+      (at 146.05 54.61 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "7f8a4330-2161-4f83-8e90-5f370c327c5e")) 
+    (pin "2" 
+      (uuid "dc857007-8e9d-460b-9739-0b615c3c1cd6")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "C9") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Connector_Generic:Conn_01x01") 
+    (at 68.58 109.22 180) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom no) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-0000584f69ad") 
+    (property "Reference" "P11" 
+      (at 68.58 111.76 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)))) 
+    (property "Value" "~" 
+      (at 66.04000000000001 109.22 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)))) 
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" 
+      (at 68.58 109.22 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "" 
+      (at 68.58 109.22 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "GND-PAD" 
+      (at 68.58 109.22 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "" 
+      (at 68.58 109.22 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "" 
+      (at 68.58 109.22 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "" 
+      (at 68.58 109.22 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "-" 
+      (at 68.58 109.22 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "2076516b-36c5-43ab-8cdf-2da5232c5a57")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "P11") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 77.47 109.22 90) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-0000584f6ee7") 
+    (property "Reference" "#PWR057" 
+      (at 83.81999999999999 109.22 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)) 
+        (hide yes))) 
+    (property "Value" "GND" 
+      (at 81.28 109.22 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)))) 
+    (property "Footprint" "" 
+      (at 77.47 109.22 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "" 
+      (at 77.47 109.22 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "" 
+      (at 77.47 109.22 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "79c0e9d9-0400-48d5-b10d-26611275964f")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "#PWR057") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:C_Polarized") 
+    (at 104.14 55.88 0) 
+    (mirror y) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-0000589f63f7") 
+    (property "Reference" "C10" 
+      (at 103.505 53.34 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)) 
+        (justify left))) 
+    (property "Value" "100u" 
+      (at 103.505 58.42 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (justify left))) 
+    (property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" 
+      (at 103.1748 59.69 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_A4005_ESH" 
+      (at 104.14 55.88 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "TH Electrolytic Capacitor" 
+      (at 104.14 55.88 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "0.42" 
+      (at 104.14 55.88 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Kemet" 
+      (at 104.14 55.88 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "ESH107M063AH9AA" 
+      (at 104.14 55.88 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "RGA101M1JBK-1012G" 
+      (at 104.14 55.88 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "4494605b-2f79-4f34-8ea3-4e8ca92e9972")) 
+    (pin "2" 
+      (uuid "31d48c0d-48fd-4e2a-91b6-6abd09656cf3")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "C10") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 66.04000000000001 62.23 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-0000589f7873") 
+    (property "Reference" "#PWR053" 
+      (at 66.04000000000001 68.58 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)) 
+        (hide yes))) 
+    (property "Value" "GND" 
+      (at 66.04000000000001 66.04000000000001 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)))) 
+    (property "Footprint" "" 
+      (at 66.04000000000001 62.23 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "" 
+      (at 66.04000000000001 62.23 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "" 
+      (at 66.04000000000001 62.23 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "796b927f-9c7b-4805-8b71-10d799ee99de")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "#PWR053") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:D_TVS") 
+    (at 66.04000000000001 57.15 270) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-000058a4445a") 
+    (property "Reference" "D2" 
+      (at 68.58 57.15 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)))) 
+    (property "Value" "D_TVS" 
+      (at 63.5 57.15 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)))) 
+    (property "Footprint" "Diode_SMD:D_SMC_Handsoldering" 
+      (at 66.04000000000001 57.15 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://www.st.com/resource/en/datasheet/cd00001367.pdf" 
+      (at 66.04000000000001 57.15 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "TVS" 
+      (at 66.04000000000001 57.15 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "0.78" 
+      (at 66.04000000000001 57.15 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "STM" 
+      (at 66.04000000000001 57.15 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "SMCJ48CA-TR" 
+      (at 66.04000000000001 57.15 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "SMCJ48CA-TR" 
+      (at 66.04000000000001 57.15 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "de831217-af92-491e-b304-d7b5ad61a9a4")) 
+    (pin "2" 
+      (uuid "015ca5bc-ee34-4dfa-a8ef-8ffa615f8080")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "D2") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:C_Small") 
+    (at 195.58 116.84 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "00d5b5f9-0327-496e-8497-5a6f78868bbd") 
+    (property "Reference" "C19" 
+      (at 195.834 115.062 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)) 
+        (justify left))) 
+    (property "Value" "39p" 
+      (at 195.834 118.872 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (justify left))) 
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" 
+      (at 195.58 116.84 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0805JRNPO9BN390" 
+      (at 195.58 116.84 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "Ceramic Capacitor" 
+      (at 195.58 116.84 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "0.10" 
+      (at 195.58 116.84 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Yageo" 
+      (at 195.58 116.84 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "CC0805JRNPO9BN390 " 
+      (at 195.58 116.84 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "C0805C100K5GACTU" 
+      (at 195.58 116.84 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "9c1b53ed-952e-4ed2-ac99-9152008e0c39")) 
+    (pin "2" 
+      (uuid "20de8743-c025-47b0-ad7c-faa21eac5a99")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "C19") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 146.05 57.15 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "257be421-7cff-4da7-806b-87dd00351a07") 
+    (property "Reference" "#PWR052" 
+      (at 146.05 63.5 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)) 
+        (hide yes))) 
+    (property "Value" "GND" 
+      (at 146.05 60.96 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)))) 
+    (property "Footprint" "" 
+      (at 146.05 57.15 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "" 
+      (at 146.05 57.15 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "" 
+      (at 146.05 57.15 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "eba88d91-7675-491b-86db-6453a87f938b")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "#PWR052") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:C_Small") 
+    (at 233.68 114.3 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "3313f5e0-c81e-443e-bfa6-02725b215e31") 
+    (property "Reference" "C18" 
+      (at 233.934 112.522 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)) 
+        (justify left))) 
+    (property "Value" "47u" 
+      (at 233.934 116.332 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (justify left))) 
+    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder" 
+      (at 233.68 114.3 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EC81C476KE15-01.pdf" 
+      (at 233.68 114.3 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "Ceramic Capacitor" 
+      (at 233.68 114.3 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "0.851" 
+      (at 233.68 114.3 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Murata" 
+      (at 233.68 114.3 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "GRM32EC81C476KE15L" 
+      (at 233.68 114.3 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "GRM32ER61C476ME15L" 
+      (at 233.68 114.3 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "c6700bef-e92f-44ff-9ff8-9fd3d7a8818b")) 
+    (pin "2" 
+      (uuid "fad8bc5b-c763-4ade-9e5c-a17294897c28")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "C18") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:D_Schottky") 
+    (at 201.93 109.22 270) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "3894b73d-46e0-4651-b820-1f9d68b5a685") 
+    (property "Reference" "D4" 
+      (at 204.47 109.22 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)))) 
+    (property "Value" "D_Schottky" 
+      (at 199.39 109.22 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)))) 
+    (property "Footprint" "Diode_SMD:D_SMC_Handsoldering" 
+      (at 201.93 109.22 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2437/CDBC520-G%20Thru%20CDBC5100-G.pdf" 
+      (at 201.93 109.22 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "Schottky" 
+      (at 201.93 109.22 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "1.12" 
+      (at 201.93 109.22 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Comchip" 
+      (at 201.93 109.22 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "CDBC560-G" 
+      (at 201.93 109.22 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "CDBC560-G" 
+      (at 201.93 109.22 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "1343f9e3-27a3-4834-bc43-fee7217122ef")) 
+    (pin "2" 
+      (uuid "57a9d383-20ce-48dc-8efd-070fc30e32ea")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "D4") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:C_Small") 
+    (at 193.04 97.79000000000001 90) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "5f59ee2e-8f88-4712-8492-77b413dccd07") 
+    (property "Reference" "C15" 
+      (at 191.262 97.536 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)) 
+        (justify left))) 
+    (property "Value" "100n" 
+      (at 195.072 97.536 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (justify left))) 
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" 
+      (at 193.04 97.79000000000001 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1284/CL21B104KACNNNC_Spec.pdf" 
+      (at 193.04 97.79000000000001 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "Ceramic Capacitor" 
+      (at 193.04 97.79000000000001 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "0.10" 
+      (at 193.04 97.79000000000001 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Samsung" 
+      (at 193.04 97.79000000000001 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "CL21B104KACNNNC" 
+      (at 193.04 97.79000000000001 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "08053C104KAT2A" 
+      (at 193.04 97.79000000000001 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "e3996485-f98c-4499-93ca-6b2813afe7c0")) 
+    (pin "2" 
+      (uuid "1723be89-3241-4288-8197-c70bca123ea7")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "C15") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:C_Small") 
+    (at 149.86 100.33 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "63d2f82f-1395-4737-b862-7bac6669d101") 
+    (property "Reference" "C16" 
+      (at 150.114 98.55200000000001 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)) 
+        (justify left))) 
+    (property "Value" "2u2" 
+      (at 150.114 102.362 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (justify left))) 
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" 
+      (at 149.86 100.33 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71E225KE11-01.pdf" 
+      (at 149.86 100.33 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "Ceramic Capacitor" 
+      (at 149.86 100.33 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "0.15" 
+      (at 149.86 100.33 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Murata" 
+      (at 149.86 100.33 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "GRM21BR71E225KE11L " 
+      (at 149.86 100.33 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "C3225X7R2A225K230AB" 
+      (at 149.86 100.33 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "63f6f089-af2b-4048-9a35-f83c05cd6ed5")) 
+    (pin "2" 
+      (uuid "1d7890c9-869b-4144-abc9-fbc91ae655f9")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "C16") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:C_Small") 
+    (at 228.6 114.3 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "75008fbe-b88d-4178-ad98-71a8caa592d9") 
+    (property "Reference" "C17" 
+      (at 228.854 112.522 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)) 
+        (justify left))) 
+    (property "Value" "47u" 
+      (at 228.854 116.332 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (justify left))) 
+    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder" 
+      (at 228.6 114.3 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EC81C476KE15-01.pdf" 
+      (at 228.6 114.3 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "Ceramic Capacitor" 
+      (at 228.6 114.3 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "0.851" 
+      (at 228.6 114.3 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Murata" 
+      (at 228.6 114.3 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "GRM32EC81C476KE15L" 
+      (at 228.6 114.3 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "GRM32ER61C476ME15L" 
+      (at 228.6 114.3 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "f1facf98-ec17-4727-8db2-45e9fb8018b0")) 
+    (pin "2" 
+      (uuid "6d64967f-6c5b-4a77-af35-f62d59932d77")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "C17") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:L_Small") 
+    (at 210.82 102.87 90) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "7927cd82-8275-43d4-a800-43cf80846094") 
+    (property "Reference" "L2" 
+      (at 210.82 100.838 90) 
+      (effects 
+        (font 
+          (size 1.524 1.524)))) 
+    (property "Value" "8u2" 
+      (at 210.82 104.648 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)))) 
+    (property "Footprint" "Inductor_SMD:L_Bourns_SRR1210A" 
+      (at 210.82 102.87 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRR1210.pdf" 
+      (at 210.82 102.87 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "Inductor" 
+      (at 210.82 102.87 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "1.20" 
+      (at 210.82 102.87 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Bourns" 
+      (at 210.82 102.87 90) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "SRR1210-8R2Y" 
+      (at 210.82 102.87 90) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "SRR1210-270M" 
+      (at 210.82 102.87 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "955c8ed1-93f3-4ece-a755-9f9a005e5a50")) 
+    (pin "2" 
+      (uuid "e8d2150a-3234-450e-9b21-d79eef40ee78")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "L2") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:R") 
+    (at 191.77 111.76 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "7decfff4-6f64-448c-8d83-6c0d415559c4") 
+    (property "Reference" "R15" 
+      (at 193.802 111.76 90) 
+      (effects 
+        (font 
+          (size 1.524 1.524)))) 
+    (property "Value" "13K" 
+      (at 191.77 111.76 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)))) 
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" 
+      (at 189.992 111.76 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L" 
+      (at 191.77 111.76 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "" 
+      (at 191.77 111.76 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "0.17" 
+      (at 191.77 111.76 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Yaogeo" 
+      (at 191.77 111.76 90) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "RC0805FR-0713KL " 
+      (at 191.77 111.76 90) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "CRCW080526K7FKEA" 
+      (at 191.77 111.76 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "b4296af6-596f-46e9-94ee-62f70ea97217")) 
+    (pin "2" 
+      (uuid "d4911855-f469-4095-85e4-8dca7cdaf20b")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "R15") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:C_Small") 
+    (at 228.6 68.58 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "8458ba23-556f-4f49-9356-6f88313d0a6b") 
+    (property "Reference" "C11" 
+      (at 228.854 66.80200000000001 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)) 
+        (justify left))) 
+    (property "Value" "47u" 
+      (at 228.854 70.61199999999999 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (justify left))) 
+    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder" 
+      (at 228.6 68.58 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EC81C476KE15-01.pdf" 
+      (at 228.6 68.58 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "Ceramic Capacitor" 
+      (at 228.6 68.58 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "0.851" 
+      (at 228.6 68.58 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Murata" 
+      (at 228.6 68.58 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "GRM32EC81C476KE15L" 
+      (at 228.6 68.58 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "GRM32ER61C476ME15L" 
+      (at 228.6 68.58 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "b2b30db4-324e-4373-ad47-e687eb734f2b")) 
+    (pin "2" 
+      (uuid "246605dc-9ffe-43a4-8f35-03b92869e34e")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "C11") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 233.68 125.73 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "a25985e3-b6e8-4b74-b895-8d13054acf42") 
+    (property "Reference" "#PWR058" 
+      (at 233.68 132.08 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)) 
+        (hide yes))) 
+    (property "Value" "GND" 
+      (at 233.68 129.54 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)))) 
+    (property "Footprint" "" 
+      (at 233.68 125.73 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "" 
+      (at 233.68 125.73 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "" 
+      (at 233.68 125.73 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "1fe3d468-3d55-431d-bceb-3ace254329db")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "#PWR058") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 149.86 102.87 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "bd44d55b-395a-483a-ae73-fe1119b2a71c") 
+    (property "Reference" "#PWR056" 
+      (at 149.86 109.22 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)) 
+        (hide yes))) 
+    (property "Value" "GND" 
+      (at 149.86 106.68 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)))) 
+    (property "Footprint" "" 
+      (at 149.86 102.87 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "" 
+      (at 149.86 102.87 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "" 
+      (at 149.86 102.87 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "2c8f20ff-2a24-4d81-8309-a37e72eca359")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "#PWR056") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:R") 
+    (at 220.98 119.38 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "c05f6ece-b2c5-4e0e-aaff-c33258937e55") 
+    (property "Reference" "R16" 
+      (at 223.012 119.38 90) 
+      (effects 
+        (font 
+          (size 1.524 1.524)))) 
+    (property "Value" "10K2" 
+      (at 220.98 119.38 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)))) 
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" 
+      (at 219.202 119.38 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L" 
+      (at 220.98 119.38 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "" 
+      (at 220.98 119.38 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "0.10" 
+      (at 220.98 119.38 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Yaogeo" 
+      (at 220.98 119.38 90) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "RC0805FR-0710K2L " 
+      (at 220.98 119.38 90) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "CRCW080510K5FKEA" 
+      (at 220.98 119.38 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "9e3e9170-d198-4fc1-a26f-1b34e5c7dc5d")) 
+    (pin "2" 
+      (uuid "71aaf744-8432-4f07-8b49-39de05757fbc")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "R16") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Regulator_Switching:TPS54360DDA") 
+    (at 173.99 102.87 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "c55701d4-2656-41b2-b5f3-63d877e6e68b") 
+    (property "Reference" "U4" 
+      (at 166.37 91.44 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)) 
+        (justify left))) 
+    (property "Value" "TPS54360DDA" 
+      (at 166.37 93.98 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (justify left))) 
+    (property "Footprint" "Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias" 
+      (at 181.61 114.3 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016) 
+          (italic yes)) 
+        (hide yes))) 
+    (property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps54360" 
+      (at 173.99 102.87 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "" 
+      (at 173.99 102.87 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "4.56" 
+      (at 173.99 102.87 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "TI" 
+      (at 173.99 102.87 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "TPS54360DDAR" 
+      (at 173.99 102.87 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "TPS54360DDAR" 
+      (at 173.99 102.87 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "2" 
+      (uuid "3d355de5-275d-46d5-afb9-96bc786a5087")) 
+    (pin "4" 
+      (uuid "225bb7ef-a3ee-4ec0-bdcc-0cf043802faa")) 
+    (pin "3" 
+      (uuid "f5ee4cce-736d-4c60-83c4-40c6bd159605")) 
+    (pin "7" 
+      (uuid "7ba062df-e55c-41ff-a7eb-d768fb44bc72")) 
+    (pin "9" 
+      (uuid "ca2a834d-f5d3-4436-8e57-60fc52f8184d")) 
+    (pin "1" 
+      (uuid "c4ed880f-2b44-497f-8ccd-d4e2ec2832fc")) 
+    (pin "8" 
+      (uuid "08b499fe-a488-4d46-b8c5-1a6432023cf7")) 
+    (pin "6" 
+      (uuid "73fd1a40-f8a2-490f-8335-0737d1099304")) 
+    (pin "5" 
+      (uuid "4b1dc53a-b01a-43c8-b816-6fac44685603")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "U4") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:R") 
+    (at 220.98 109.22 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "cfe2ae07-8ce9-4e62-bf27-e5bd5f89f350") 
+    (property "Reference" "R13" 
+      (at 223.012 109.22 90) 
+      (effects 
+        (font 
+          (size 1.524 1.524)))) 
+    (property "Value" "53K6" 
+      (at 220.98 109.22 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)))) 
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" 
+      (at 219.202 109.22 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L" 
+      (at 220.98 109.22 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "" 
+      (at 220.98 109.22 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "0.10" 
+      (at 220.98 109.22 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Yaogeo" 
+      (at 220.98 109.22 90) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "RC0805FR-0753K6L" 
+      (at 220.98 109.22 90) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "CRCW0805147KFKEA" 
+      (at 220.98 109.22 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "53ffcd92-4860-4d54-9371-08d4a0e0aecb")) 
+    (pin "2" 
+      (uuid "e7d229f1-5dc5-44c1-9b04-1a6ee8f6f9e5")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "R13") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:C_Small") 
+    (at 191.77 119.38 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "d3e4f88d-f6ad-4c4f-8a90-25f7ab7e25d7") 
+    (property "Reference" "C20" 
+      (at 187.96 116.84 0) 
+      (effects 
+        (font 
+          (size 1.524 1.524)) 
+        (justify left))) 
+    (property "Value" "6n8" 
+      (at 186.69 119.38 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (justify left))) 
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" 
+      (at 191.77 119.38 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM2195C1H682JA01-01.pdf" 
+      (at 191.77 119.38 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "Ceramic Capacitor" 
+      (at 191.77 119.38 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "0.14" 
+      (at 191.77 119.38 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Murata" 
+      (at 191.77 119.38 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "GRM2195C1H682JA01D " 
+      (at 191.77 119.38 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "GRM2195C1H752JA01D" 
+      (at 191.77 119.38 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "b4e89f8f-f089-4fff-8247-620c62524920")) 
+    (pin "2" 
+      (uuid "1af31c5f-ff81-47b0-8f8f-50e601dd5afa")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "C20") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:R") 
+    (at 157.48 110.49 0) 
+    (unit 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (uuid "ef562020-f0a0-4e90-8d4b-36119027e798") 
+    (property "Reference" "R14" 
+      (at 159.512 110.49 90) 
+      (effects 
+        (font 
+          (size 1.524 1.524)))) 
+    (property "Value" "162K" 
+      (at 157.48 110.49 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)))) 
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" 
+      (at 155.702 110.49 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L" 
+      (at 157.48 110.49 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Description" "" 
+      (at 157.48 110.49 0) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Price" "0.17" 
+      (at 157.48 110.49 90) 
+      (effects 
+        (font 
+          (size 1.016 1.016)) 
+        (hide yes))) 
+    (property "Manufacturer" "Yaogeo" 
+      (at 157.48 110.49 90) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Part Number" "RC0805FR-07162KL" 
+      (at 157.48 110.49 90) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (property "Mnf." "CRCW0805221KFKEA" 
+      (at 157.48 110.49 0) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (hide yes))) 
+    (pin "1" 
+      (uuid "804aacbd-d81e-484b-a691-8b5659e13e5d")) 
+    (pin "2" 
+      (uuid "24770ac2-2ff3-42f5-b0c1-fb685fe16c71")) 
+    (instances 
+      (project "SatNOGS_Controller" 
+        (path "/c5eeb71f-1fd7-40df-8200-13956c683140/06306948-462a-4768-8181-af26f0640536" 
+          (reference "R14") 
+          (unit 1))))))

@@ -1,0 +1,274 @@
+(footprint "Harwin_Gecko-G125-MH10605L7P_2x03_P1.25mm_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Harwin Gecko Connector, 6 pins, dual row male, horizontal entry, PN:G125-MH10605L7P, https://www.harwin.com/products/G125-MH10605L7P")
+	(tags "connector harwin gecko")
+	(property "Reference" "REF**"
+		(at 0 -0.02 0)
+		(layer "F.SilkS")
+		(uuid "9084cdf4-b823-437d-acf4-40ff6678f40d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Harwin_Gecko-G125-MH10605L7P_2x03_P1.25mm_Horizontal"
+		(at 0.03 8.42 0)
+		(layer "F.Fab")
+		(uuid "704861d7-cc1b-4aee-9f1e-53144c55f7a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c9e94af-22ee-44d8-8bec-e2637658f6f1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63daa1e8-80ae-4221-b631-e105e9a303a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78ed6d06-3d4d-4b3e-aa32-36fba3f014d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.275 6.2)
+		(end -5.275 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "253aec37-0f83-4c2a-b5ce-5bdab5ae80a7")
+	)
+	(fp_line
+		(start 2.775 0)
+		(end 2.775 6.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7dc40af0-a14d-4692-a406-76fb0c1f1665")
+	)
+	(fp_line
+		(start 2.775 6.2)
+		(end -5.275 6.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "952798b3-da89-486c-9314-4610eca2aa56")
+	)
+	(fp_circle
+		(center 0.75 -1.016)
+		(end 1.016 -1.016)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "af173cbc-ba6b-420d-8603-42732debe344")
+	)
+	(fp_line
+		(start -5.46 -1.65)
+		(end 2.96 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c6525c03-8907-49da-add8-8ad6cc8b1e84")
+	)
+	(fp_line
+		(start -5.46 7.32)
+		(end -5.46 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d17e34ee-5bc8-4072-a983-c9261f29b78a")
+	)
+	(fp_line
+		(start 2.96 -1.65)
+		(end 2.96 7.32)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "47c61a6d-f42d-46d5-9879-935ead780f34")
+	)
+	(fp_line
+		(start 2.96 7.32)
+		(end -5.46 7.32)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "32f07321-8d9e-43b9-99c9-7aad4f02a659")
+	)
+	(fp_line
+		(start -5.275 0)
+		(end 2.775 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ba75e9a8-9836-4cb4-bab3-6a5c7ae02b77")
+	)
+	(fp_line
+		(start -5.275 6.2)
+		(end -5.275 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "baad9317-9615-4ad9-825c-5fb535c64d70")
+	)
+	(fp_line
+		(start 2.775 0)
+		(end 2.775 6.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f6b82d8d-d0c4-429d-b36c-2230860023da")
+	)
+	(fp_line
+		(start 2.775 6.2)
+		(end -5.275 6.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5d7055b8-e632-4923-bca8-3e76e68c701f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.02 0)
+		(layer "F.Fab")
+		(uuid "6b50b09a-6ad4-4357-bfa6-7a990ec33bca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.1 1.1)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fc79bd04-9cef-4aa1-8b13-8ebc61172071")
+	)
+	(pad "2" thru_hole circle
+		(at 0 1.25)
+		(size 1.1 1.1)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0933eb54-c867-4b4b-acb7-99e43a12102c")
+	)
+	(pad "3" thru_hole circle
+		(at -1.25 0)
+		(size 1.1 1.1)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "51066121-e10a-4300-a617-4c54f38bb674")
+	)
+	(pad "4" thru_hole circle
+		(at -1.25 1.25)
+		(size 1.1 1.1)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d79cb10d-5158-4087-8b43-deb489a9d7cd")
+	)
+	(pad "5" thru_hole circle
+		(at -2.5 0)
+		(size 1.1 1.1)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d75118c8-24e9-423d-a43a-a692016a1116")
+	)
+	(pad "6" thru_hole circle
+		(at -2.5 1.25)
+		(size 1.1 1.1)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e5ad690c-558d-4725-8f22-9b6da82af64a")
+	)
+	(pad "MP" smd roundrect
+		(at -3.75 4.2)
+		(size 2 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "16ff51c8-cc13-4380-9814-585b839cc41a")
+	)
+	(pad "MP" smd roundrect
+		(at 1.25 4.2)
+		(size 2 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "b04e33f7-c3f3-478f-af3c-aa2174ac28f9")
+	)
+	(model "${LSF_KICAD_LIB}/lsf-kicad-lib.3dshapes/Harwin_Gecko-G125-MH10605L7P_2x03_P1.25mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,170 @@
+(footprint "MQ-7B"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Sensor CO, https://www.pololu.com/file/0J313/MQ7.pdf")
+	(tags "Sensor CO")
+	(property "Reference" "REF**"
+		(at 6.010407 -7.214593 0)
+		(layer "F.SilkS")
+		(uuid "4dc59a7d-30e2-478e-b2df-3734a7a34d20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MQ-7B"
+		(at 6.01 19.65 0)
+		(layer "F.Fab")
+		(uuid "b095c385-2922-492e-80d7-9f6d1a254503")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95e15358-4979-4218-b2a7-c4c1016bf5dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00cae330-1e34-4caa-bf5c-70759996a087")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "898c0929-a4a3-49d4-9fbd-14de7df279c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 6.010407 6.010407)
+		(end 6.010407 18.060407)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "20420a4c-7d9e-49e5-b1a6-4ba9b1d19c48")
+	)
+	(fp_circle
+		(center 6 5.999593)
+		(end 6 18.56)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "fe859b33-22eb-4ea8-858d-e533b420e3fe")
+	)
+	(fp_circle
+		(center 6.010407 6.010407)
+		(end 6.010407 17.910407)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "04b3d095-baa7-4323-bcc9-fd93c36d6c5d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.010407 6.010407 0)
+		(layer "F.Fab")
+		(uuid "46a7801d-293b-4009-aa43-23e0e7bde972")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "A" thru_hole oval
+		(at 0 0)
+		(size 2.5 2.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8f226578-25fd-4107-a61e-e4540e08e3ed")
+	)
+	(pad "A" thru_hole rect
+		(at 0 12.020814)
+		(size 2.5 2.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "027d14aa-3db8-4ccd-baee-af7ff993acea")
+	)
+	(pad "B" thru_hole oval
+		(at 12.020814 0)
+		(size 2.5 2.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8258106e-7b07-45d4-98c3-d7003fdf8678")
+	)
+	(pad "B" thru_hole oval
+		(at 12.020814 12.020814)
+		(size 2.5 2.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3c3b2b26-790f-479e-8ab9-708e627f18a9")
+	)
+	(pad "H1" thru_hole oval
+		(at 6.010407 14.510407)
+		(size 2.5 2.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a7911b8b-7a59-4e98-ab03-8e5bb29c69d9")
+	)
+	(pad "H2" thru_hole oval
+		(at 6.010407 -2.489593)
+		(size 2.5 2.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e5ab3865-d20c-4673-9618-9f270246dc91")
+	)
+	(model "${LSF_KICAD_LIB}/lsf-kicad-lib.3dshapes/MQ-7B.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

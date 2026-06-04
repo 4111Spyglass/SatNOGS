@@ -1,0 +1,265 @@
+(footprint "SC-70"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Analog SC-70, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-sc-70/SOT_6_05-08-1638.pdf")
+	(tags "SC-70")
+	(property "Reference" "REF**"
+		(at 0 2.7 0)
+		(layer "F.SilkS")
+		(uuid "5d8e91ca-4ebe-4a77-bccb-64ff131a8e52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SC-70"
+		(at 0 -2.5 0)
+		(layer "F.Fab")
+		(uuid "b84e2b63-3ff9-4a2d-940f-2309ff036be4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a865199-48bf-4eb3-86bb-0b02fd79a271")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bea00ca3-0ac6-4542-a122-065a3daa2882")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dea0dc45-a5c4-4963-9f17-60e3272db31b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.3 -0.8)
+		(end -1.3 0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f5815f1d-bd1b-436f-a532-064851f5abfe")
+	)
+	(fp_line
+		(start -1.1 -0.8)
+		(end -1.3 -0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f9726403-3a5b-4547-94b5-c07db7bcd8fa")
+	)
+	(fp_line
+		(start -1.1 0.8)
+		(end -1.3 0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b76903c5-e957-4b99-99d8-726f3dfcef4b")
+	)
+	(fp_line
+		(start 1.1 -0.8)
+		(end 1.3 -0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b5442070-eeaa-4e65-a13c-79b08fb7cefd")
+	)
+	(fp_line
+		(start 1.3 -0.8)
+		(end 1.3 0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0e43f37-3083-4731-b67d-976fa6a8701d")
+	)
+	(fp_line
+		(start 1.3 0.8)
+		(end 1.1 0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8cf56bd-e4f4-4155-9c85-96d896c1cc1e")
+	)
+	(fp_line
+		(start -1.4 -1.4)
+		(end 1.4 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2e25c5d4-3bad-4308-9a17-5d1517bda36a")
+	)
+	(fp_line
+		(start -1.4 1.4)
+		(end -1.4 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f4e25bfb-1fd2-43f5-995f-441841ffcf81")
+	)
+	(fp_line
+		(start 1.4 -1.4)
+		(end 1.4 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2909f827-8abc-41e9-9749-bcf4733c9fd8")
+	)
+	(fp_line
+		(start 1.4 1.4)
+		(end -1.4 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "060df4a9-1ae7-453f-94d1-1d5eadc94812")
+	)
+	(fp_line
+		(start -0.85 -1.3)
+		(end 0.85 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "683ca7b6-420c-4313-aea7-26f1a67904f4")
+	)
+	(fp_line
+		(start -0.85 1.3)
+		(end -0.85 -1.225)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0a7dae8e-2e25-4fc4-8ff0-c110740e714e")
+	)
+	(fp_line
+		(start 0.85 -1.3)
+		(end 0.85 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "98803426-b307-413f-be8c-efa731294075")
+	)
+	(fp_line
+		(start 0.85 1.3)
+		(end -0.85 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2ce08015-3e46-43da-9f95-6f030e6715a2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.7 0)
+		(layer "F.Fab")
+		(uuid "195b66ce-892c-43e9-ac19-c65276987aa3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd trapezoid
+		(at -0.65 0.975)
+		(size 0.4 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "35571c70-7d94-4fb9-ba7d-28ed54580527")
+	)
+	(pad "2" smd trapezoid
+		(at 0 0.975)
+		(size 0.4 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c62dd2ca-e362-4ae0-bff0-1da5adfb9f60")
+	)
+	(pad "3" smd trapezoid
+		(at 0.65 0.975)
+		(size 0.4 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "81b6f73b-0f33-482e-b717-6735907e390f")
+	)
+	(pad "4" smd trapezoid
+		(at 0.65 -0.975)
+		(size 0.4 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d51bc379-29eb-43b1-ae00-b8e0eb63cf85")
+	)
+	(pad "5" smd trapezoid
+		(at 0 -0.975)
+		(size 0.4 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "19de83f7-4034-45bf-baa3-3a4d83a2e657")
+	)
+	(pad "6" smd trapezoid
+		(at -0.65 -0.975)
+		(size 0.4 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2d79a972-a8cf-4243-8bde-76a3bf3c1c94")
+	)
+	(model "${LSF_KICAD_LIB}/lsf-kicad-lib.3dshapes/SC-70.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

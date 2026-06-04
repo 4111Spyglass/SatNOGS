@@ -1,0 +1,260 @@
+(footprint "SMC_Amphenol_152119_Vertical"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMC Female Through-hole Vertical, https://www.amphenolrf.com/library/download/link/link_id/595611/parent/152119/")
+	(tags "SMC Female Through-hole Vertical")
+	(property "Reference" "REF**"
+		(at 0 4.5 180)
+		(layer "F.SilkS")
+		(uuid "fe5d6221-7f8f-4eb2-94d4-92a53a791557")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMC_Amphenol_152119_Vertical"
+		(at 0 -4.7 0)
+		(layer "F.Fab")
+		(uuid "fc935fe0-8219-452b-9c6c-b59c1b60386d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a8982cb-d010-4632-85b2-661d9629150c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89c760b5-54c4-4a5f-8be3-068965b87500")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ea3655d-bad8-4a1d-b8f2-9b74dfbe3545")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.5 -1.2)
+		(end -3.5 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12b89a5a-6279-47ee-a1cf-04b72381f897")
+	)
+	(fp_line
+		(start -1.2 3.5)
+		(end 1.2 3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d10bfe67-f0c8-472a-ba7c-085bdce18b34")
+	)
+	(fp_line
+		(start 1.2 -3.5)
+		(end -1.2 -3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3cc744a5-6c12-436a-aaa4-e6408c5785f5")
+	)
+	(fp_line
+		(start 3.5 1.2)
+		(end 3.5 -1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9eafc3ea-163c-4c01-89db-412637edcdc1")
+	)
+	(fp_line
+		(start -3.9 -3.9)
+		(end -3.9 3.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "53d539ae-127f-48a8-8e37-1a34d5048c22")
+	)
+	(fp_line
+		(start -3.9 3.9)
+		(end 3.9 3.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4e64eacc-b158-4491-8e02-b2f4dd81ce00")
+	)
+	(fp_line
+		(start 3.9 -3.9)
+		(end -3.9 -3.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "33203eb5-7109-4c1a-8d9b-f63d983c162b")
+	)
+	(fp_line
+		(start 3.9 3.9)
+		(end 3.9 -3.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dc760dd7-7585-4f7f-98c0-96cbca5574d1")
+	)
+	(fp_line
+		(start -3.5 -3.5)
+		(end 3.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0ce10d48-64c6-4ecc-88a7-b2038de1c9de")
+	)
+	(fp_line
+		(start -3.5 3.5)
+		(end -3.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "214937ac-2f33-4724-8841-eeadefb18e02")
+	)
+	(fp_line
+		(start 3.5 -3.5)
+		(end 3.5 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae32ca4c-e8e0-40af-9597-49107a839314")
+	)
+	(fp_line
+		(start 3.5 3.5)
+		(end -3.5 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "821792bd-f761-4546-a494-ab4b05b27efe")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.03 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "4111f02c-c3d4-4187-8a61-c85bca1fe196")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.0154 0 0)
+		(layer "F.Fab")
+		(uuid "71d70f85-faa4-4b85-bd10-f836541f4cff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.1 2.1)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "65ea8198-f8e7-421a-9127-f83542c4766a")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 -2.54)
+		(size 2.6 2.6)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "85eddc03-59b8-48e3-b69a-6c5adcb3fe21")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 2.54)
+		(size 2.6 2.6)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5ec59644-c8a3-4ec5-a1b0-09bfb7773641")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 -2.54)
+		(size 2.6 2.6)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "28cd58ec-049d-4428-8edf-97c8d93d7a9a")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 2.54)
+		(size 2.6 2.6)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "60366275-7226-46ff-ae04-6d9adb190532")
+	)
+	(model "${LSF_KICAD_LIB}/lsf-kicad-lib.3dshapes/SMC_Amphenol_152119_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,278 @@
+(footprint "DXW21HN"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Ultra Miniature Wire Wound Transformer (50:50 Balun), https://www.murata.com/en-eu/products/productdetail?partno=DXW21HN5011B%23")
+	(tags "Balun 50-50 Transformer")
+	(property "Reference" "REF**"
+		(at 0.03 -1.815 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "04e7637c-897b-40b7-9490-6c98ff5572c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DXW21HN"
+		(at 0.03 1.715 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ccc98c41-4180-4c24-85ec-04c64eac0921")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.85 -0.425 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78801af3-6ddb-46eb-a93d-e14d0340d5c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.85 -0.425 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31c9e058-51d7-49b7-af27-0061b9f11179")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.85 -0.425 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97823be5-5ba9-451b-afc7-f213be37894c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.58 -0.935)
+		(end -1.08 -0.935)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "50b2b9f2-9ec6-43b6-963b-7d3128041581")
+	)
+	(fp_line
+		(start -1.58 -0.435)
+		(end -1.58 -0.935)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cc0898fa-8771-462e-b64b-bfd5f252ab63")
+	)
+	(fp_rect
+		(start -1.42 -0.78)
+		(end 1.42 0.78)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c8035d72-4a4f-4efa-8f55-e7ee92e8453c")
+	)
+	(fp_line
+		(start -1 -0.6)
+		(end -1 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "90fab8a1-f16f-433f-a03b-20a2a2732f18")
+	)
+	(fp_line
+		(start -1 -0.6)
+		(end -0.43 -0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "02f0275a-be58-4bbb-9f1d-b228ae26e173")
+	)
+	(fp_line
+		(start -1 0.6)
+		(end -0.43 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6131e5bd-a360-4e26-a4a9-f7460e28f584")
+	)
+	(fp_line
+		(start -0.43 -0.6)
+		(end -0.315111 -0.510137)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "650252ca-aa2e-4e40-89e6-b46b8fbb8af5")
+	)
+	(fp_line
+		(start -0.43 0.6)
+		(end -0.304212 0.509433)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d0b45d61-be28-4263-b6f8-9f339fffa603")
+	)
+	(fp_line
+		(start -0.315111 -0.510137)
+		(end 0.314889 -0.510137)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "43615d1f-cf03-458b-b4b7-97b081c8ee53")
+	)
+	(fp_line
+		(start -0.305 0.51)
+		(end 0.305 0.51)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c14e6c53-00e2-439b-89e6-14b86e849c86")
+	)
+	(fp_line
+		(start 0.314889 -0.510137)
+		(end 0.418364 -0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b96e0c4e-b405-4235-83b7-f13f280c9f8e")
+	)
+	(fp_line
+		(start 0.4125 0.6)
+		(end 0.306141 0.51)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "fee3874a-c144-4c85-8ba9-15d54695a94e")
+	)
+	(fp_line
+		(start 0.4125 0.6)
+		(end 0.995 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c31ca834-973f-4152-930b-e383d4785dcd")
+	)
+	(fp_line
+		(start 0.995 -0.6)
+		(end 0.415 -0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b50fc245-678d-432e-85d8-cd49bfbd47a9")
+	)
+	(fp_line
+		(start 0.995 -0.6)
+		(end 0.995 0.600009)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "43413832-ea69-4e40-a3a2-18ffb6dc9b95")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.03 3.175 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "23333c5f-2493-439e-b515-3f12070fb7c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.85 -0.425)
+		(size 0.9 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "0b061b77-df27-46ee-8bda-cbaf9dc1fb53")
+	)
+	(pad "2" smd roundrect
+		(at 0.85 -0.425)
+		(size 0.9 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "a9c34c8e-3a76-4c77-8ec7-75688332fa36")
+	)
+	(pad "3" smd roundrect
+		(at 0.85 0.425)
+		(size 0.9 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "0e0fdd05-5d5b-47d0-9319-5e2cb377d2e7")
+	)
+	(pad "4" smd roundrect
+		(at -0.85 0.425)
+		(size 0.9 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "a5b2a678-6586-4596-9c6c-4b9c9cc3797f")
+	)
+	(model "${LSF_KICAD_LIB}/lsf-kicad-lib.3dshapes/DXW21HN.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

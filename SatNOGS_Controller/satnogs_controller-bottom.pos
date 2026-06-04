@@ -1,0 +1,16 @@
+### Footprint positions - created on 2026-05-26T19:14:00-0500 ###
+### Printed by KiCad version 9.0.8+1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                                           PosX       PosY       Rot  Side
+FID5      Fiducial  Fiducial_1mm_Mask2mm                            4.9500    10.0000    0.0000  bottom
+FID6      Fiducial  Fiducial_1mm_Mask2mm                           94.9500    10.0000    0.0000  bottom
+FID7      Fiducial  Fiducial_1mm_Mask2mm                           94.9500    70.0000    0.0000  bottom
+FID8      Fiducial  Fiducial_1mm_Mask2mm                            4.9500    70.0000    0.0000  bottom
+R1        4K7       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder    21.9680    43.4340  180.0000  bottom
+R2        4K7       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder    21.9680    41.1480  180.0000  bottom
+R3        4K7       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder    26.8800    69.5960   90.0000  bottom
+R4        4K7       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder    24.3844    69.5960   90.0000  bottom
+R5        4K7       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder    21.8444    69.5960   90.0000  bottom
+R6        4K7       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder    19.3044    69.5960   90.0000  bottom
+## End

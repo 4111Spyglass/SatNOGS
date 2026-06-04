@@ -1,0 +1,287 @@
+(footprint "KEYSTONE-3030"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "battery holder, https://www.keyelco.com/product.cfm/product_id/3952")
+	(tags "battery holder")
+	(property "Reference" "REF**"
+		(at 0 3 0)
+		(layer "F.SilkS")
+		(uuid "c6f640c7-aae6-439b-b37c-47ae0a683a8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KEYSTONE-3030"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0cc71588-762b-4296-bc13-f8347a2701fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "365518e6-b1b7-40f6-bd86-4e106181885c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c15aec39-7137-41fa-aed0-5a65ea5ef62e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "caebc11e-7786-48df-ae23-b457e44dcf14")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5 -2.5)
+		(end -3 -4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9380bea7-6fef-4879-a7ce-507ddf1eb3dd")
+	)
+	(fp_line
+		(start -5 3)
+		(end -4.5 2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f33e22b6-6ff6-4d69-bee3-7a16881fdf61")
+	)
+	(fp_line
+		(start -5 3)
+		(end -3 5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b36480b8-964c-409f-8ebb-5b216e95d823")
+	)
+	(fp_line
+		(start -3 -4.5)
+		(end 3 -4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37123bc5-10c4-4dfa-ae49-200ba556b43c")
+	)
+	(fp_line
+		(start -3 5)
+		(end -2 4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64677e82-42dd-41b2-8216-8db4d2baa65f")
+	)
+	(fp_line
+		(start -2 4)
+		(end 2 4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "677ed205-2642-4ddb-b349-0047a5c4864f")
+	)
+	(fp_line
+		(start 2 4)
+		(end 3 5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "978f9869-82fd-44c0-9106-b162d391bfeb")
+	)
+	(fp_line
+		(start 3 -4.5)
+		(end 5 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93470e41-53c3-4681-bf12-b8995ef05425")
+	)
+	(fp_line
+		(start 3 5)
+		(end 5 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d212184d-d971-4add-81c6-bab58674d497")
+	)
+	(fp_line
+		(start 5 3)
+		(end 4.5 2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8eec8c6a-8c73-4604-9e8b-456dfbaf1d43")
+	)
+	(fp_line
+		(start -8 -4.65)
+		(end -8 5.07)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "652b4a34-c49e-44bb-941a-d5ecd7a7931a")
+	)
+	(fp_line
+		(start -8 5.07)
+		(end 8 5.07)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "792781bf-8baf-45f2-9182-1973ffffc3e8")
+	)
+	(fp_line
+		(start 7.99 -4.65)
+		(end -8 -4.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff9e6469-b12f-4b23-94f6-3cbbb7e89386")
+	)
+	(fp_line
+		(start 8 5.07)
+		(end 7.99 -4.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dc2b3a39-ddda-4666-84a7-625a2afc4650")
+	)
+	(fp_line
+		(start -8 -1.93)
+		(end -7.99 1.93)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b72a95b-2ed2-450b-9458-b8b0efa123c3")
+	)
+	(fp_line
+		(start -7.99 1.93)
+		(end 8 1.93)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ccdb18bd-8350-4dfb-aeb2-aa2980c38995")
+	)
+	(fp_line
+		(start 8 -1.93)
+		(end -8 -1.93)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "33da0f43-2832-4ef1-afec-4bcac4c1389a")
+	)
+	(fp_line
+		(start 8 1.93)
+		(end 8 -1.93)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76f87bb2-a5af-4b34-a8df-bd10c557ee0c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "043b774b-2279-4fbd-998e-bf22b3e43d7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 3.96 3.96)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "888e9af0-bbc3-4a11-9180-ae94ea427b7d")
+	)
+	(pad "2" smd rect
+		(at -6.6 0)
+		(size 2.9 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a5b95393-c4b1-44cb-98a8-bdbf79ab2c40")
+	)
+	(pad "2" smd rect
+		(at 6.6 0)
+		(size 2.9 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "be3b4308-0a51-4112-8905-a49e86156264")
+	)
+	(model "${LSF_KICAD_LIB}/lsf-kicad-lib.3dshapes/KEYSTONE-3030.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,170 @@
+(footprint "MQ-7"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Sensor CO, https://www.sparkfun.com/datasheets/Sensors/Biometric/MQ-7.pdf")
+	(tags "Sensor CO")
+	(property "Reference" "REF**"
+		(at 3.258757 -3.641243 0)
+		(layer "F.SilkS")
+		(uuid "947c3eeb-6875-4931-8e53-70f7072531fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MQ-7"
+		(at 3.358757 10.258757 0)
+		(layer "F.Fab")
+		(uuid "db5ad94b-3f87-4797-afa7-db84aecdd4bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f52cbae4-27b5-41ef-b218-44a34c2f9590")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "272829cd-85cc-414b-87d4-cdf5cad13bd6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4085604-84cb-447b-b344-ca95fb7d0139")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 3.34 3.34)
+		(end 3.34 12.34)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1975dd1c-8344-40b0-a5f6-b97f7f438271")
+	)
+	(fp_circle
+		(center 3.34 3.36)
+		(end 3.34 12.36)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "fe51f552-cd1b-457a-968d-1065be7d5a59")
+	)
+	(fp_circle
+		(center 3.358757 3.358757)
+		(end 3.358757 11.858757)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "076c159f-a730-4c9b-8e58-71be49309dff")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.258757 -3.641243 0)
+		(layer "F.Fab")
+		(uuid "0504713e-84ea-4c88-a275-3f09d4958654")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "A" thru_hole rect
+		(at 0 0)
+		(size 2.5 2.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aea7c7e4-4a64-40d4-9ddb-624d4cded849")
+	)
+	(pad "A" thru_hole oval
+		(at 0 6.717514)
+		(size 2.5 2.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "50434b5a-01e5-4480-b43a-6a648b15233f")
+	)
+	(pad "B" thru_hole oval
+		(at 6.717514 0)
+		(size 2.5 2.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0b18c61d-dcf3-4c40-820e-eb4856228710")
+	)
+	(pad "B" thru_hole oval
+		(at 6.717514 6.717514)
+		(size 2.5 2.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1ab4e27f-a09a-4c97-8f69-3e26696d142f")
+	)
+	(pad "H1" thru_hole oval
+		(at -1.391243 3.358757)
+		(size 2.5 2.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fe5b83cb-70b9-424c-afe8-a3b824e9784c")
+	)
+	(pad "H2" thru_hole oval
+		(at 8.108757 3.358757)
+		(size 2.5 2.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "049df13e-1056-44b2-b548-cea9375155ae")
+	)
+	(model "${LSF_KICAD_LIB}/lsf-kicad-lib.3dshapes/MQ-7.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,238 @@
+(footprint "mmcx_conn"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "MMCX SMD, https://")
+	(tags "MMCX SMD V")
+	(property "Reference" "REF**"
+		(at 0 3.4 0)
+		(layer "F.SilkS")
+		(uuid "05b6a76b-b7c1-47f5-ad64-ac546e87ef90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "mmcx_conn"
+		(at 0 -3.1 0)
+		(layer "F.Fab")
+		(uuid "58a6f288-a436-4b42-9349-e8ac847b6ee8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efc1841a-bd6d-4eb7-a822-68a9d279f753")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f38ba445-1efb-42b7-8084-2262a60da932")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9db822b-a405-4368-8742-8000cb46fae7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.3 -2.3)
+		(end -2.3 2.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46c6450e-7118-431b-aa9e-92a6a3325c19")
+	)
+	(fp_line
+		(start -2.3 2.3)
+		(end 2.3 2.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bdab8d35-9861-4aa9-bbcd-db90c5498a4e")
+	)
+	(fp_line
+		(start 2.3 -2.3)
+		(end -2.3 -2.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c690b40a-1dce-4f9b-8e23-391e664fd67a")
+	)
+	(fp_line
+		(start 2.3 2.3)
+		(end 2.3 -2.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d731dd49-0473-4385-840a-e5feaa66a551")
+	)
+	(fp_line
+		(start -2.44 -2.44)
+		(end -2.44 2.44)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6eddfba9-6169-4e7b-95fb-92be88cde5c6")
+	)
+	(fp_line
+		(start -2.44 2.44)
+		(end 2.44 2.44)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "98180ebb-6c70-4010-941c-039ea6ecb316")
+	)
+	(fp_line
+		(start 2.44 -2.44)
+		(end -2.44 -2.44)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "31f103d8-fddf-455e-8d69-6847aae83433")
+	)
+	(fp_line
+		(start 2.44 2.44)
+		(end 2.44 -2.44)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1777a52a-742c-4a84-b7b9-94ef26760b1f")
+	)
+	(fp_line
+		(start -1.9 -1.9)
+		(end 1.9 -1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b24de36-e0e3-4403-ba5d-46578b66e39e")
+	)
+	(fp_line
+		(start -1.9 1.9)
+		(end -1.9 -1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "42a49974-458d-4907-a8f7-79d80a8c2b88")
+	)
+	(fp_line
+		(start 1.9 -1.9)
+		(end 1.9 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "396b1d1b-84d9-4548-962f-22edfbeb9407")
+	)
+	(fp_line
+		(start 1.9 1.9)
+		(end -1.9 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cb77dded-964d-4052-bd24-804f8d80427b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2a900186-a8bb-40c3-9cbe-173fc43d5910")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" connect circle
+		(at 0 0)
+		(size 1.15 1.15)
+		(layers "F.Cu" "F.Mask")
+		(uuid "71c98d1e-0bd7-4726-aad8-143df95e234e")
+	)
+	(pad "2" connect trapezoid
+		(at -1.4 -1.4)
+		(size 1.1 1.1)
+		(layers "F.Cu" "F.Mask")
+		(uuid "29258461-7617-4b72-bd1d-f377d49ce3e6")
+	)
+	(pad "2" connect trapezoid
+		(at -1.4 1.4)
+		(size 1.1 1.1)
+		(layers "F.Cu" "F.Mask")
+		(uuid "fea46479-7651-40ae-9af7-c738068ee343")
+	)
+	(pad "2" connect trapezoid
+		(at 1.4 -1.4)
+		(size 1.1 1.1)
+		(layers "F.Cu" "F.Mask")
+		(uuid "f302893e-75ec-4c1d-b900-0bcf1b838e2e")
+	)
+	(pad "2" connect trapezoid
+		(at 1.4 1.4)
+		(size 1.1 1.1)
+		(layers "F.Cu" "F.Mask")
+		(uuid "3704cfef-1eda-4b3f-975e-49ef678f7db6")
+	)
+	(model "${LSF_KICAD_LIB}/lsf-kicad-lib.3dshapes/mmcx_conn.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

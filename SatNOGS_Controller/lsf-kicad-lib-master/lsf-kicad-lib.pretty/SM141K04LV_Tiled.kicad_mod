@@ -1,0 +1,194 @@
+(footprint "SM141K04LV_Tiled"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "IXOLAR High Efficiency SolarMD, http://ixapps.ixys.com/DataSheet/SM141K04LV.pdf")
+	(tags "PV solar panel")
+	(property "Reference" "REF**"
+		(at 0 0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "03ac409b-5b13-4aae-8d88-8e0fb569a322")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SM141K04LV_Tiled"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e2233801-71ea-4e4e-a717-fc578ea7f994")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19de97ba-e0a7-4aa6-98aa-c6054d7c15bd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d701c16a-c423-40e8-9dc1-b46274adfc43")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e568e97-860f-4978-ba6f-09b066e8b109")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -22.75 -7.75)
+		(end -19.75 -7.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4ad8ec6c-b249-4b64-994b-572da1ce7a84")
+	)
+	(fp_line
+		(start -22.75 -4.75)
+		(end -22.75 -7.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b9a99a64-2d40-489d-ad5d-c553cc1b64d1")
+	)
+	(fp_line
+		(start 22.75 4.5)
+		(end 22.75 7.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b0c57d13-baac-464d-87d1-d1e231182b21")
+	)
+	(fp_line
+		(start 22.75 7.75)
+		(end 19.75 7.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6be5f610-f812-4d84-a104-b132c44016e9")
+	)
+	(fp_rect
+		(start -22.5 -7.5)
+		(end 22.5 7.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "8028dfe1-4260-47e6-8057-08c3954fc6a0")
+	)
+	(fp_line
+		(start -22.5 -7.5)
+		(end -22.5 7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6d1d69cc-552e-451a-ada2-329e7b6215a1")
+	)
+	(fp_line
+		(start -22.5 7.5)
+		(end 22.5 7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "404ab685-5c56-4b1b-82c8-a0c07e85589d")
+	)
+	(fp_line
+		(start 22.5 -7.5)
+		(end -22.5 -7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5c47ca94-880d-4ed9-b9d0-1c9e1782fa39")
+	)
+	(fp_line
+		(start 22.5 7.5)
+		(end 22.5 -7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4f12c47-1d4c-4a2b-888e-8827966d8a2c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "67fbeadf-c683-445d-8eb9-b846c45eef98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at -19.5 0)
+		(size 3 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d7502031-79c7-44dc-893f-4fd2714efbf2")
+	)
+	(pad "2" smd circle
+		(at 19.5 0)
+		(size 3 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2b67262c-6f0e-44ec-829e-34b61af212dc")
+	)
+	(model "${LSF_KICAD_LIB}/lsf-kicad-lib.3dshapes/SM141K04LV.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

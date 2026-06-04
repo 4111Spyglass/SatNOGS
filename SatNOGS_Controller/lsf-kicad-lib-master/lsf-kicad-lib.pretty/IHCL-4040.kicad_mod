@@ -1,0 +1,243 @@
+(footprint "IHCL-4040"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMT Inductor, https://www.vishay.com/docs/34359/ihcl-4040dz-5a22.pdf")
+	(tags "SMT Inductor")
+	(property "Reference" "REF**"
+		(at -5.4505 0 90)
+		(layer "F.SilkS")
+		(uuid "1dd1eeaa-800c-475b-813a-c8a4162dddd5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IHCL-4040"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "7f87518f-55cb-45ce-bd27-a28bf1353986")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5168ae59-8680-492d-b345-f181a2958cc9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91d4f926-1996-4f22-bea2-bb8aa8766b7e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "731f43de-a504-4d0f-bdbe-6f5fb5b4ef18")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.4505 -4.993)
+		(end 4.4505 -4.993)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9a30c0d-be72-4a27-9f38-8b1ebf1b1ed9")
+	)
+	(fp_line
+		(start -4.4505 4.193)
+		(end -4.4505 -4.993)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a14eed9-c2a0-4a74-87b6-21320897f192")
+	)
+	(fp_line
+		(start -3.6505 4.993)
+		(end -4.4505 4.193)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9913d739-2df0-4499-978d-2068b23b7e46")
+	)
+	(fp_line
+		(start 4.4505 -4.993)
+		(end 4.4505 4.993)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d9b691f-0962-43b8-8d40-4f54e70b7ae4")
+	)
+	(fp_line
+		(start 4.4505 4.993)
+		(end -3.6505 4.993)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b166b9e4-091c-4a7e-90b2-d3f5acfbd1ee")
+	)
+	(fp_line
+		(start -4.6 -5.15)
+		(end 4.6 -5.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ceaeeb85-d539-438b-b70a-8369d707c8ab")
+	)
+	(fp_line
+		(start -4.6 5.15)
+		(end -4.6 -5.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ef74101c-e6b3-4672-b673-88b9a08abc7c")
+	)
+	(fp_line
+		(start 4.6 -5.15)
+		(end 4.6 5.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "771882b5-6ed7-4644-be65-50b99b267dbf")
+	)
+	(fp_line
+		(start 4.6 5.15)
+		(end -4.6 5.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b41bc0e-9777-4371-b417-d3d85244c9b7")
+	)
+	(fp_line
+		(start -4.5 -5)
+		(end 4.5 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3646f617-7a94-40ac-873a-c5a6a35dbf6a")
+	)
+	(fp_line
+		(start -4.5 5)
+		(end -4.5 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "174bb2f5-edf9-40b1-ad09-4c6da7fb524b")
+	)
+	(fp_line
+		(start 4.5 -5)
+		(end 4.5 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dce946e6-5447-499b-ab96-be22f22fe74e")
+	)
+	(fp_line
+		(start 4.5 5)
+		(end -4.5 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "53f3c9ad-d277-4268-861e-0d735088ae31")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -5.45 0 90)
+		(layer "F.Fab")
+		(uuid "f67d462d-1643-41bc-955f-feced585db49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.413 2.904)
+		(size 3.075 3.178)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "657caefb-01a5-4ccf-aa63-8b5b610b5eaa")
+	)
+	(pad "2" smd rect
+		(at 2.413 2.904)
+		(size 3.075 3.178)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8a7ffbb8-ea4b-4be8-b1d2-7ea9f3666322")
+	)
+	(pad "3" smd rect
+		(at 2.413 -2.904)
+		(size 3.075 3.178)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "90868ab9-0185-4ebb-ad69-880fb84ced0b")
+	)
+	(pad "4" smd rect
+		(at -2.413 -2.904)
+		(size 3.075 3.178)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "735b4497-34c9-47f7-8198-05ba200cf6c3")
+	)
+	(model "${LSF_KICAD_LIB}/lsf-kicad-lib.3dshapes/IHCL-4040.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

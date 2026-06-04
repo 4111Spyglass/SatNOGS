@@ -1,0 +1,233 @@
+(footprint "D2F-L"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Omron  D2F-L Ultra Subminiature Basic Switch, https://omronfs.omron.com/en_US/ecb/products/pdf/en-d2f.pdf")
+	(tags "subminiature  switch")
+	(property "Reference" "REF**"
+		(at 0 4.5 0)
+		(layer "F.SilkS")
+		(uuid "daf46fb5-e267-4a77-991e-53121a331823")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D2F-L"
+		(at -5 -2 0)
+		(layer "F.Fab")
+		(uuid "e00fcec3-8552-477f-bf61-1d7b4b60c5fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55db5f0a-2089-4e5c-b4f0-c32ab9f83101")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a4f02f2-59aa-4eec-b7f1-aca78c158b9b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58839687-d469-4b02-bca2-995b76af0c2b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -11.98 -3.4)
+		(end -11.98 3.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c111972-71bd-4b38-89b6-376577a15e3a")
+	)
+	(fp_line
+		(start -11.98 -3.4)
+		(end 1.82 -3.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "882d0e1f-6671-424a-9e26-f558952dfd13")
+	)
+	(fp_line
+		(start -11.98 3.4)
+		(end 1.82 3.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d62bf300-045a-4af2-9d0e-98887f9efa03")
+	)
+	(fp_line
+		(start 1.82 3.4)
+		(end 1.82 -3.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91234856-338c-47ff-b993-e226b3b656ad")
+	)
+	(fp_line
+		(start -11.48 2.9)
+		(end -11.48 -2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8c7dad62-0874-4422-a04d-0b5029f71242")
+	)
+	(fp_line
+		(start 1.32 -2.9)
+		(end -11.48 -2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "899eab0e-58c9-4b09-a355-6456ccfb76b3")
+	)
+	(fp_line
+		(start 1.32 -2.9)
+		(end 1.32 2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9c06023c-8a78-4821-b3b3-d021176df4b3")
+	)
+	(fp_line
+		(start 1.32 2.9)
+		(end -11.48 2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4648e78c-a62a-4c42-8373-ad3041ff74c5")
+	)
+	(fp_line
+		(start -11.48 -2.9)
+		(end -11.48 2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "708e1ef6-eabe-495c-9979-53a46fecebe4")
+	)
+	(fp_line
+		(start -11.48 2.9)
+		(end 1.32 2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1f0d1348-87af-4071-9ec7-fc8c4c50ed39")
+	)
+	(fp_line
+		(start 1.32 -2.9)
+		(end -11.48 -2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cbde622b-8f8b-40c5-9567-f3c7a8a8eda3")
+	)
+	(fp_line
+		(start 1.32 -2.9)
+		(end 1.32 2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "731e9a87-920a-426a-adef-5180e8fb690d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -5.08 0 0)
+		(layer "F.Fab")
+		(uuid "359238f5-4cf9-43df-a24f-321c56cbd06b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.5 2.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bdd756d3-75fc-437f-bd2b-0b13e0e439b7")
+	)
+	(pad "2" thru_hole circle
+		(at -10.16 0)
+		(size 2.5 2.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "beb56b76-f496-41fd-b849-26d41c14283b")
+	)
+	(pad "3" thru_hole circle
+		(at -5.08 0)
+		(size 2.5 2.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "71440e48-98c5-4472-8124-9cca27c3d897")
+	)
+	(model "${LSF_KICAD_LIB}/lsf-kicad-lib.3dshapes/D2F-L.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,206 @@
+(footprint "EIA_0805"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "6-Pin package with 2.0x1.25mm, https://product.tdk.com/system/files/dam/doc/product/rf/rf/diplexer/catalog/rf_dpx_dpx205850dt-4152b2_en.pdf")
+	(tags "rf filter diplexer")
+	(property "Reference" "REF**"
+		(at 0 -2.54 0)
+		(layer "F.SilkS")
+		(uuid "f2dcb948-3c1c-4c2c-89ef-fe7c047a5738")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "EIA_0805"
+		(at 0 1.95 0)
+		(layer "F.Fab")
+		(uuid "3038c70b-fd2f-4f2b-8164-899f11bca457")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3733c1e-88e0-47c3-9542-f0c452fcb34a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44160e6d-4f80-430d-a487-44066e2dcbe4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b009427-25d2-479f-ab35-bc4d3579e498")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.645 1.07)
+		(end 0.645 1.07)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e32eb75d-d030-4f22-ad16-b68334252a6f")
+	)
+	(fp_line
+		(start 0 -1.07)
+		(end 0.645 -1.07)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae3d04df-c395-4606-b5f2-9b08bc48fa82")
+	)
+	(fp_rect
+		(start -1.4 -1.2)
+		(end 1.4 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "6307d80a-83c2-492e-b25f-03cdd977d6b5")
+	)
+	(fp_line
+		(start -0.645 -0.6975)
+		(end -0.645 1.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3abd0d27-4387-470f-9670-488149825e8a")
+	)
+	(fp_line
+		(start -0.645 -0.6975)
+		(end -0.3225 -1.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "827d9b80-2e05-47b2-aa4b-1e3f0a4f4e83")
+	)
+	(fp_line
+		(start -0.645 1.02)
+		(end 0.645 1.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "491783cd-5231-406c-a894-1307926a4d32")
+	)
+	(fp_line
+		(start 0.645 -1.02)
+		(end -0.3225 -1.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "695ccbcc-4a44-4a1f-b5e4-e7c0459755d8")
+	)
+	(fp_line
+		(start 0.645 1.02)
+		(end 0.645 -1.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9bcc956e-c4f5-4588-9853-153c0a2fe704")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "f564e0c5-8187-4a95-84fe-12a6761816e9")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.83 -0.65)
+		(size 0.89 0.33)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7781aae8-5d26-4046-9a09-adba2b97542e")
+	)
+	(pad "2" smd rect
+		(at -0.83 0)
+		(size 0.89 0.33)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "946820c0-3b54-4d49-8bf1-ece9fed82a51")
+	)
+	(pad "3" smd rect
+		(at -0.83 0.65)
+		(size 0.89 0.33)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0df8ac50-91ca-471c-a2bf-3fc9ebf81672")
+	)
+	(pad "4" smd rect
+		(at 0.83 0.65)
+		(size 0.89 0.33)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e9e0135f-dc09-4297-aa43-2589d124f697")
+	)
+	(pad "5" smd rect
+		(at 0.83 0)
+		(size 0.89 0.33)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4f9e6c7f-c861-4fc9-8454-f86043fee0ad")
+	)
+	(pad "6" smd rect
+		(at 0.83 -0.65)
+		(size 0.89 0.33)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1a8e6dd9-5188-4b8e-8817-9c427dc5f186")
+	)
+	(model "${LSF_KICAD_LIB}/lsf-kicad-lib.3dshapes/EIA_0805.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
